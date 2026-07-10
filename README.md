@@ -159,16 +159,6 @@ pip install -r requirements.txt
 python -m playwright install chromium
 ```
 
-## Run Tests
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
-## Docker
-
-```powershell
-docker compose up --build
 ```
 
 ## Trace Files
