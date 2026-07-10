@@ -1,0 +1,1 @@
+The agent started by scraping the Zoho careers page (`zoho.com/careers`) using `firecrawl`. The scrape successfully returned job listings, including details like job titles, locations (e.g., "Remote Job", "Austin, Texas"), and application links. The agent now has the content of the careers page, which includes filters and job descriptions.

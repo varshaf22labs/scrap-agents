@@ -1,0 +1,1708 @@
+{
+  "domain": "f22labs.com",
+  "generated_at": "2026-07-10T07:34:48.385423+00:00",
+  "events": [
+    {
+      "ts": "2026-07-10T07:27:58.801139+00:00",
+      "actor": "system",
+      "action": "startup",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "env_file_loaded": true,
+        "discovery_model": "gemini-2.5-flash",
+        "investigation_model": "gemini-2.5-flash",
+        "planning_model": "gpt-5-mini",
+        "codegen_model": "gpt-5-mini",
+        "repair_model": "gpt-5-mini",
+        "trace_model": "gemini-2.5-flash",
+        "search_provider": "serper",
+        "firecrawl_enabled": true
+      },
+      "note": "Resolved runtime configuration"
+    },
+    {
+      "ts": "2026-07-10T07:28:01.227308+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/careers"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "### Filters\n\n### Smart Filters\n\n### Job Type\n\nFull time (2)\n\nApply Filters\n\n# Join us\n\n## Current Openings\n\n\u00d7\n\nFilters\n\nWhat\n\nWhere\n\n{{getI18n('crm.social.tooltip.search')}}  Search\n\nLoading...\n\n### [Senior Project Manager](https://f22labs.zohorecruit.in/jobs/Careers/65449000002129032/Senior-Project-Manager?source=CareerSite)\n\nChennai, Tamil Nadu, India  4-5 years\n\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\n\nFull time07/31/2024\n\n### [Product Management Intern](https://f22labs.zohorecruit.in/jobs/Careers/65449000000416161/Product-Management-Intern?source=CareerSite) Position filled\n\nChennai, Tamil Nadu, India  0-1 year\n\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\n\nFull time07/27/2024\n\n{{criteriaIndex}}\n\n{{field}}{{captialize(condition)}}\n\n()\n\n{{cxPropHelpText}}\n\n{{cxPropField.consent\\_details.description}}\n\n# {{record.Posting\\_Title}}\n\n### [{{record.Posting\\_Title}}](https://f22labs.zohorecruit.in/jobs/Careers)\n\n### [{{record.Posting\\_Title}}](https://f22labs.zohorecruit.in/jobs/Careers)\n\n{{candidate.Email}}\n\n{{topMessage}}\n\nJob Details\n\n{{topMessage}}\n\n[previous](about:blank#) [next](about:blank#)\n\n### [{{title}}](about:blank\\#)\n\n{{score}}%\n\n### Job Description\n\n{{unescape(sanitizeHTML(descriptionHTML))}}\n\n{{message}}\n\nStep {{curStepInMandatorySecPrompt}}/{{totalNumOfStepsInMandatorySecPrompt}}\n\nFor privacy and security purposes, please go through the following points and provide consent.\n\nAcceptDecline\n\n{{botName}}\n\n{{getI18n(\"zr.zia.sb.consent.msg1\")}}",
+            "metadata": {
+              "ogTitle": "Jobs at F22Labs",
+              "twitter:card": "summary_large_image",
+              "theme-color": "#6875E2",
+              "twitter:title": "Jobs at F22Labs",
+              "og:image": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg",
+              "keywords": "Everyone at F22Labs is free to explore and work the way you want. Come join us!",
+              "og:image:type": "img/png",
+              "og:image:secure_url": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg",
+              "title": "Jobs at F22Labs",
+              "twitter:site": "www.f22labs.com",
+              "og:locale": "en_US",
+              "twitter:image:alt": "Jobs at F22Labs",
+              "msapplication-TileColor": "#6875E2",
+              "og:title": "Jobs at F22Labs",
+              "ogLocale": "en_US",
+              "description": "Everyone at F22Labs is free to explore and work the way you want. Come join us!",
+              "ogImage": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg",
+              "ogUrl": "https://f22labs.zohorecruit.in/jobs/Careers",
+              "og:image:width": "1200",
+              "language": [
+                "en",
+                "en_US"
+              ],
+              "og:site_name": "F22Labs",
+              "msapplication-TileImage": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg",
+              "ogSiteName": "F22Labs",
+              "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+              "ogDescription": "Everyone at F22Labs is free to explore and work the way you want. Come join us!",
+              "og:image:alt": "F22Labs",
+              "googlebot": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+              "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+              "twitter:description": "Everyone at F22Labs is free to explore and work the way you want. Come join us!",
+              "og:url": "https://f22labs.zohorecruit.in/jobs/Careers",
+              "twitter:image": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg",
+              "og:type": "website",
+              "og:image:height": "630",
+              "og:description": "Everyone at F22Labs is free to explore and work the way you want. Come join us!",
+              "favicon": "https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=favicon&page_id=65449000000346512&file_name=F22logo__1_.png",
+              "scrapeId": "019f4aed-1a8f-776b-af6b-53c4b6f5f4b4",
+              "sourceURL": "https://f22labs.com/careers",
+              "url": "https://f22labs.zohorecruit.in/jobs/Careers",
+              "statusCode": 200,
+              "contentType": "text/html;charset=UTF-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T05:48:31.551Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html lang=\"en\"><body class=\"cw-spmenu-push font-lato\"><div id=\"lyteAssetsDiv\"></div><div id=\"ajax_load_tab\" class=\"slider_loading\" data-dispcount=\"0\" style=\"display: none;\"><div class=\"loading_line\" data-zcqa=\"loading_line\"></div><div class=\"loading_break dot1\"></div><div class=\"loading_break dot2\"></div><div class=\"loading_break dot3\"></div><div class=\"loading_break dot4\"></div></div><div id=\"career-website-main\" class=\"cw-live\" data-candidateloginsession=\"\"><career-website page_id=\"65449000000346512\" lyte-rendered=\"\"> <section class=\"cw-prw-wrapper cw-preview-wrapper font-lato\"> <div class=\"edit-layout-block posR\"> <section class=\"cw-layout-section-2 cw-over-tooltip\"> <section class=\"cw-section cw-hero-banner  cw-container-fluid cw-layout-section-2 home-bg\" style=\"background-image: url('/recruit/viewCareerImage.do?page_id=65449000000346512&amp;type=background&amp;file_name=bg01.png');background-position-y:0px;\" id=\"cw-header-section\"> <div class=\"header-img-overlay\" style=\"background-color:#171b27;opacity:0.70\"></div>  <career-website-header-layout2 type=\"publish\" id=\"65449000000346512\" lyte-rendered=\"\">  </career-website-header-layout2> </section> <section class=\"clearfix cw-job-listing posR cw-section-space \" id=\"Jobs\">    <div class=\"cw-section-inner\" id=\"website_block_jobs\"> <career-website-job-layout3 group_item_selected=\"All\" type=\"publish\" remote_job_selected=\"false\" lyte-rendered=\"\">  <div class=\"cw-joblisting-wrapper cw-job-layout3 \"> <div class=\"cw-search-overlay\"></div>  <div class=\"posR cw-joblisting-filter\"> <div class=\"cw-filter-search\"> <a class=\"pop-close-popup toggle-filters disN\" click=\"career-website-job-layout3 => hideSection()\"></a> <h3 class=\"cw-filter-heading\" style=\"color:#232933\">Filters</h3> <div class=\"editable row-space-8\"> <div class=\"cw-filter-box\"> <div class=\"cw-filter-section\"> <h3 style=\"color:#5c6575\">Smart Filters</h3>  </div>  <div class=\"cw-filter-section facet-filter\" data-field=\"{&quot;id&quot;:&quot;65449000000226872&quot;,&quot;module&quot;:[&quot;65449000000226548&quot;],&quot;custom_field&quot;:false,&quot;ui_type&quot;:2,&quot;api_name&quot;:&quot;Job_Type&quot;,&quot;field_label&quot;:&quot;Job Type&quot;,&quot;data_type&quot;:&quot;picklist&quot;,&quot;length&quot;:120,&quot;required&quot;:false,&quot;section&quot;:[&quot;1&quot;]}\"> <h3 style=\"color:#5c6575\">Job Type</h3>  <div class=\"cw-fillter-scroll-0 cw-fillter-scroll\">  <div class=\"crc-custom-cheackbox cnl-custom-0 checkbox-ind-0-0\" data-identifier=\"checkbox-ind-0-0\"> <lyte-checkbox lt-prop-autocomplete=\"false\" lt-prop-tooltip-config=\"{&quot;position&quot;:&quot;top&quot;,&quot;maxdisplaytime&quot;:15000}\" lt-prop-name=\"checkbox\" lt-prop-value=\"Full time\" lt-prop-label=\"Full time (2)\" keydown=\"lyte-checkbox => preventInputClick(event)\" keyup=\"lyte-checkbox => preventInputClick(event)\" random-id=\"lyte-checkbox-label-0\" lyte-rendered=\"\" data-tabindex=\"\">  <label class=\"lyteCheckbox lyteDefault\" mouseup=\"lyte-checkbox => mup(event)\" click=\"lyte-checkbox => prevent(event)\"> <input aria-labelledby=\"lyte-checkbox-label-0\" type=\"checkbox\" id=\"\" name=\"checkbox\" value=\"Full time\" tabindex=\"0\" data-tabindex=\"\" class=\"\" click=\"lyte-checkbox => checkBoxClicked(event)\" autocomplete=\"off\"> <span class=\"lyteCheckBoxDefault\"> <span class=\"\" aria-hidden=\"true\" id=\"lyte-checkbox-label-0\" lyte-label=\"\">  Full time (2)  </span> </span> </label> </lyte-checkbox> </div>  </div> </div>  </div> <div class=\"circle tl\"></div><div class=\"circle tr\"></div><div class=\"circle bl\"></div><div class=\"circle br\"></div> </div> <div class=\"cw-text-center\"><a style=\"background-color:#6875E2;border:1px solid #6875E2\" class=\"toggle-filters cw-apply-filters\" click=\"career-website-job-layout3 => applyFilters()\">Apply Filters</a></div> </div> </div>  <div class=\"cw-joblisting-results\"> <div class=\"cw-filter-results\"> <div class=\"cw-job-layout3-header\"> <h1 style=\"color:#232933\" data-zrqa=\"cw-job3-title\">Join us</h1> <h2 style=\"color:#5c6575\" data-zrqa=\"cw-job3-stitle\">Current Openings </h2> </div> <div class=\"clearfix cw-mobile-search vivify\"> <a class=\"form-search-dismiss disN\">\u00d7</a> <div class=\"cw-search-fixed \"> <a class=\"cw-job-filter-btn form-filter-trigger\" click=\"career-website-job-layout3 => openFilter()\"><i class=\"fa fa-filter\"></i>Filters</a> <div class=\"cw-search-section clearfix\"> <div class=\"cw-search-section-search\"> <div class=\"cw-search-title-warp\"> <label style=\"color:#232933\">What</label> <lyte-input data-zrqa=\"cw-job3s\" class=\"cw-search-title lyteInput vertical lyteInputWithClearIcon\" lt-prop-type=\"text\" lt-prop-placeholder=\"Job title or skill\" lt-prop-close-icon=\"true\" keyup=\"career-website-job-layout3 => checkAndClear(event)\" lyte-rendered=\"\">   <div class=\"lyteField  \" style=\"\"> <input data-tabindex=\"0\" tabindex=\"0\" type=\"text\" value=\"\" id=\"\" class=\"\" maxlength=\"\" name=\"\" placeholder=\"Job title or skill\" autocomplete=\"off\" style=\"\" title=\"\" pattern=\".+\" focus=\"lyte-input => focusClass(event)\" blur=\"lyte-input => blurThrow\" input=\"lyte-input => input\">   <span role=\"button\" class=\"inputCloseIcon\" style=\"display: none;\" click=\"lyte-input => clsIcon(event)\" keydown=\"lyte-input => keyclick(event)\"></span>  </div>   </lyte-input> </div> <div class=\"cw-search-location-wrap\"> <label style=\"color:#232933\">Where</label> <lyte-input data-zrqa=\"cw-job3l\" class=\"cw-search-location lyteInput vertical lyteInputWithClearIcon\" lt-prop-type=\"text\" lt-prop-placeholder=\"City, State/Province or Country\" lt-prop-close-icon=\"true\" keyup=\"career-website-job-layout3 => checkAndClear(event)\" lyte-rendered=\"\">   <div class=\"lyteField  \" style=\"\"> <input data-tabindex=\"0\" tabindex=\"0\" type=\"text\" value=\"\" id=\"\" class=\"\" maxlength=\"\" name=\"\" placeholder=\"City, State/Province or Country\" autocomplete=\"off\" style=\"\" title=\"\" pattern=\".+\" focus=\"lyte-input => focusClass(event)\" blur=\"lyte-input => blurThrow\" input=\"lyte-input => input\">   <span role=\"button\" class=\"inputCloseIcon\" style=\"display: none;\" click=\"lyte-input => clsIcon(event)\" keydown=\"lyte-input => keyclick(event)\"></span>  </div>   </lyte-input> </div> <lyte-button data-zrqa=\"cw-job3-search\" lt-prop-appearance=\"primary\" lt-prop-background-color=\"#6875E2\" click=\"lyte-button => check(event) ; career-website-job-layout3 => searchJob()\" mousedown=\"lyte-button => check(event)\" final-style=\"background-color:#6875E2;border-color:#6875E2;color:white;\" final-class=\"lyte-button lyteBackgroundColorBtn\" lyte-rendered=\"\">  {{getI18n('crm.social.tooltip.search')}}   <button type=\"button\" class=\"lyte-button lyteBackgroundColorBtn\" value=\"\" tabindex=\"\" data-tabindex=\"\" id=\"\" name=\"\" style=\"background-color:#6875E2;border-color:#6875E2;color:white;\">  <lyte-yield yield-name=\"text\"> Search </lyte-yield>  </button> </lyte-button> </div>   </div> </div> </div> <div class=\"posR\"> <div class=\"cw-job-loading-overlay disN\"> <div class=\"cw-easyapply-loading\"> <div style=\"background-color:#6875E2\"></div> <div style=\"background-color:#6875E2\"></div> <div style=\"background-color:#6875E2\"></div> <span class=\"cw-loading-text\">Loading...</span> </div> </div>   <div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://f22labs.zohorecruit.in/jobs/Careers/65449000002129032/Senior-Project-Manager?source=CareerSite\">Senior Project Manager</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#171B27\">  Chennai, Tamil Nadu, India   <span class=\"search-work-experience\"> 4-5 years</span>  </p>  <p class=\"cw-bw\" style=\"color:#171B27\">Who we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#171B27\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#171B27\">07/31/2024</span>  </span> </div> </div>    <div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://f22labs.zohorecruit.in/jobs/Careers/65449000000416161/Product-Management-Intern?source=CareerSite\">Product Management Intern</a>  <span class=\"pos-fill\">Position filled</span>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#171B27\">  Chennai, Tamil Nadu, India   <span class=\"search-work-experience\"> 0-1 year</span>  </p>  <p class=\"cw-bw\" style=\"color:#171B27\">Who we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#171B27\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#171B27\">07/27/2024</span>  </span> </div> </div>    </div> </div>    </div> </div>  </career-website-job-layout3> </div>    </section> </section> </div> <career-website-footer cx-prop-rec-home=\"https://www.zoho.in/recruit\" type=\"publish\" cx-prop-from=\"list\" cx-prop-list-url=\"https://f22labs.zohorecruit.in/jobs/Careers\" cx-prop-website=\"www.f22labs.com\" lyte-rendered=\"\">  </career-website-footer> </section>  <a href=\"https://f22labs.zohorecruit.in/jobs/Careers#top\" id=\"back-top\" style=\"background: rgb(104, 117, 226); display: none;\"> <span class=\"cw-long-arrow-top\"></span> </a> </career-website></div><div id=\"lyte-components-div\">                            <div class=\"{{if(ifEquals(cxPropRequestModel,'role'),'cxBoxWithRightIcon cxBoxContainsDropdown','')}}\"> <div class=\"{{if(ifEquals(cxPropRequestModel,'role'),'cxBoxLeftContent','')}}\"> <lyte-dropdown id=\"{{cxPropId}}\" lyte-hovercard=\"{{if(cxPropErrorOnHovercard,'true','false')}}\" lt-prop-yield=\"true\" lt-prop-selected=\"{{dropdownSelected}}\" lt-prop-type=\"{{cxPropType}}\" lt-prop-tabindex=\"14\" class=\"{{if(ifEquals(cxPropAppearance,'flat'),'cxFlatDropdown','cxBoxDropdown')}}\">  </lyte-dropdown> </div>  </div>        <lyte-popover lt-prop-origin-elem=\"{{originElem}}\" lt-prop-show-close-button=\"false\" lt-prop-freeze=\"false\" lt-prop-scrollable=\"false\" lt-prop-wrapper-class=\"cxInfoPopover\" lt-prop-type=\"{{toolTipType}}\" lt-prop-duration=\"0\" lt-prop-show=\"{{show}}\" lt-prop-max-width=\"500px\" lt-prop-content-padding=\"15px 10px\" lt-prop-placement=\"{{placement}}\">  </lyte-popover>  <div class=\"cxBoxWithRightIcon cxFileSizeCompContainer\"> <lyte-number class=\"cxBoxInput cxBoxLeftContent\" lt-prop-tabindex=\"{{if(cxPropTabIndex,cxPropTabIndex,cxPropTabindex)}}\" lt-prop-value=\"{{cxPropInputValue}}\"></lyte-number> <lyte-dropdown class=\"cxBoxDropdown cxFileSizeDropdown\" lt-prop-tabindex=\"{{if(cxPropTabIndex,cxPropTabIndex,cxPropTabindex)}}\" lt-prop-user-value=\"name\" lt-prop-system-value=\"value\" lt-prop-options=\"{{cxPropOptions}}\" lt-prop-selected=\"{{cxPropSelectedOption}}\" focusout=\"crux-file-size-component => onBlurDropdownCallback(this)\"></lyte-dropdown> </div>          <lyte-popover lt-prop-wrapper-class=\"cxLookupPopoverWrapper {{cxPropPopoverWrapperClass}}\" lt-prop-show-close-button=\"false\" lt-prop-show=\"{{show}}\" lt-prop-freeze=\"false\" lt-prop-type=\"callout\" lt-prop-bind-to-body=\"true\" lt-prop-content-padding=\"0px\" lt-prop-origin-elem=\".cxVisibleLookup .cruxLookupPopover\" lt-prop-duration=\"{{undefinedValue}}\">  </lyte-popover>  <lyte-modal id=\"modalElem\" lt-prop-wrapper-class=\"cxLookupModal cxBoxModal {{cxPropWrapperClass}}\" lt-prop-show=\"{{lbind(show)}}\" lt-prop-offset=\"{&quot;top&quot; : &quot;0&quot;, &quot;left&quot; : &quot;center&quot;}\" lt-prop=\"{&quot;allowMultiple&quot; : &quot;true&quot;, &quot;width&quot; : &quot;80%&quot;, &quot;left&quot; : &quot;5%&quot;}\">  </lyte-modal>  <lyte-modal id=\"modalElem\" lt-prop-wrapper-class=\"cxLookupModal LookupModal cxBoxModal lookupListTable\" lt-prop-show=\"{{lbind(show)}}\" lt-prop-show-close-button=\"false\" lt-prop-bind-to-body=\"{{ltPropBindToBody}}\" lt-prop-offset=\"{&quot;top&quot; : &quot;0&quot;, &quot;left&quot; : &quot;center&quot;}\" lt-prop=\"{&quot;allowMultiple&quot; : &quot;true&quot;, &quot;width&quot; : &quot;80%&quot;, &quot;left&quot; : &quot;5%&quot;}\">  </lyte-modal>  <div class=\"cxLookupFilterViewHeading clearAfterB\"> <h4 class=\"dIB m0\"></h4>  </div> <div class=\"cxAlignRight dF pL20 pR20 clearAfterB moduleRelatedDropdown\"> <lyte-dropdown lt-prop-yield=\"true\" lt-prop-selected=\"{{lbind(selectedRelatedRecordIndex)}}\" data-zcqa=\"relatedRecord\" lt-prop-disabled=\"{{disableRelatedTo}}\" lt-prop-freeze=\"false\" lt-prop-tabindex=\"1\" class=\"dIB mR20 relatedDropdownLookup cxLookupFilterViewRelatedDropdown\" lt-prop-aria-button=\"{{cxPropAriaButton}}\">  </lyte-dropdown> <lyte-input class=\"lookupsearch dIB\" lt-prop-id=\"filterbox\" data-zcqa=\"lookupSearch\" lt-prop-focus=\"true\" lt-prop-appearance=\"box\" lt-prop-type=\"search\" lt-prop-value=\"{{lbind(searchBarAttr.searchValue)}}\" lt-prop-placeholder=\"{{searchBarAttr.displayMsg}}\" lt-prop-maxlength=\"200\" lt-prop-autocomplete=\"off\"></lyte-input>  </div> <lyte-popover lt-prop-origin-elem=\"#coloumnSelectOrg\" lt-prop-class=\"columnCustomizeWrap\" lt-prop-wrapper-class=\"columnCustomizeWrap\" lt-prop-animation=\"zoom\" lt-prop-bind-to-body=\"false\" lt-prop-show=\"{{showColList}}\" lt-prop-header-padding=\"0px\" lt-prop-content-padding=\"0px\" lt-prop-footer-padding=\"0px\" lt-prop-freeze=\"false\" lt-prop-type=\"box\" lt-prop-placement=\"bottomLeft\" lt-prop-scrollable=\"false\" lt-prop-show-close-button=\"false\" lt-prop-close-on-body-click=\"true\">  </lyte-popover> <div class=\"cxAdvanceLookupFilterField lookupFieldList pR\"> <lyte-menu lt-prop-yield=\"true\" lt-prop-show=\"{{showSortableOptions}}\" lt-prop-event=\"click\" id=\"sortOrderMenu\" lt-prop-query=\".sortableTarget\">  </lyte-menu> <span tabindex=\"0\" class=\"cxFlexCenter advanceFilter cxLookupFilterViewAdvanceFilterIcon\" data-zcqa=\"lookupAdvanceFilterIcon\" lt-prop-title=\"{{if(showFilter,cruxGetI18n('crm.button.clear.filter'),cruxGetI18n('crm.button.show.filter'))}}\" lt-prop-tooltip-config=\"{&quot;position&quot; : &quot;default&quot;}\" click=\"crux-lookup-filter-view => filterAction(this)\"></span> <crux-table-component cx-prop-show-scroll-on=\"hover\" cx-prop-zcqa-selector=\"field_label\" cx-prop-module=\"{{moduleName}}\" cx-prop-clip-mode=\"false\" cx-prop-hide-header-on-no-content=\"false\" class=\"lyteOuterTable dB entityLookupTable lyteFixedHeaderTable {{if(bigLookupTable,'bigLookupTable','')}}\" cx-prop-column-cell-class=\"lookupCriteriaLabelWrap1\" cx-prop-header=\"{{header}}\" cx-prop-show-business-card=\"false\" cx-prop-row-zcqa=\"detailView\" cx-prop-content=\"{{record}}\" cx-prop-yield-for-prefix=\"true\" cx-prop-sort-columns=\"true\" cx-prop-table-class=\"lookupLyteTable\" cx-prop-no-records-message=\"{{cruxGetI18n('crm.module.empty.message',module.plural_label)}}\" cx-prop-enable-body-scroll=\"false\" cx-prop-show-tooltip=\"false\" cx-prop-no-content-class=\"noresultstyle\" cx-prop-field-type-mapping=\"{{uiTypeMapping}}\" cx-prop-show-filter=\"{{showFilter}}\" set-lookup-filter-conditions=\"{{method('setLookupFilterConditions')}}\" cx-prop-filter-component=\"crux-lookupfilter-component\" apply-filter=\"{{method('applyFilter')}}\" clear-filter=\"{{method('clearFilter')}}\" header-fields=\"{{header}}\" cx-prop-sorted-column=\"{{sortedColumn}}\" cx-prop-sorted-order=\"{{sortDetails.sort_order}}\" cx-prop-selected-rows=\"{{cxPropDisabledList}}\" cx-prop-selected-row-class=\"cxLookupDisableRow\">      </crux-table-component> </div> <div class=\"cxLookupModalbuttonLayer pT20 pR20 pL20 pR {{if(scrollableTable,'moreRecordsTable','')}}\">   </div>        <lyte-popover lt-prop-origin-elem=\".cxPropOnFocusTag .moreTagOption\" class=\"moreTagOptionPopover\" lt-prop-freeze=\"{{cxPropFreezePopover}}\" lt-prop-show-close-button=\"false\" lt-prop-show=\"true\" lt-prop-type=\"box\" lt-prop-max-width=\"200\" lt-prop-width=\"200\" lt-prop-content-padding=\"15px 15px 5px\" lt-prop-wrapper-class=\"nLvTagsMoreOptionhandle\" lt-prop-duration=\"{{durationUndefined}}\" lt-prop-bind-to-body=\"true\" lt-prop-dimmer=\"{{cxPropPopoverDimmer}}\" lt-prop-close-on-scroll=\"true\">  </lyte-popover>  <lyte-popover lt-prop-show=\"{{showPopover}}\" lt-prop-freeze=\"false\" lt-prop-show-close-button=\"false\" lt-prop-origin-elem=\".cxLookupBc\" lt-prop-position=\"right\" lt-prop-duration=\"{{undefinedNumber}}\" lt-prop-content-padding=\"15px\" lt-prop-bind-to-body=\"false\" lt-prop-max-height=\"70%\" lt-prop-wrapper-class=\"cxBusinessCardPopover\">  </lyte-popover>  <i class=\"cxInfoIcon cxViewInfoTooltipIcon\" lyte-hovercard=\"true\" id=\"{{cxPropField.api_name}}_icon\"></i> <lyte-hovercard lt-prop-origin-elem=\"#{{cxPropField.api_name}}_icon\" lt-prop-auto-show=\"true\">  </lyte-hovercard>    <lyte-alert lt-prop-show=\"{{lbind(cxPropShow)}}\" lt-prop-type=\"{{cxPropType}}\" lt-prop-wrapper-class=\"{{cxPropWrapperClass}}\" lt-prop-allow-multiple=\"{{cxPropAllowMultiple}}\" lt-prop-top=\"{{cxPropTop}}\" lt-prop-buttons=\"{{cxPropButtons}}\" lt-prop-button-position=\"{{cxPropButtonPosition}}\" lt-prop-show-close-button=\"{{cxPropShowCloseButton}}\" lt-prop-close-on-escape=\"{{cxPropCloseOnEscape}}\" lt-prop-dimmer=\"{{cxPropDimmer}}\" lt-prop-yield=\"true\" lt-prop-animation=\"{{cxPropAnimation}}\" lt-prop-content-align=\"{{cxPropContentAlign}}\" lt-prop-aria=\"{{cxPropAria}}\" lt-prop-prevent-focus=\"{{cxPropPreventFocus}}\" lt-prop-aria-attributes=\"{{cxPropAriaAttributes}}\">  </lyte-alert>  <lyte-messagebox lt-prop-message=\"{{cxPropMessage}} \" lt-prop-show=\"{{lbind(cxPropShow)}}\" lt-prop-type=\"{{cxPropType}} \" lt-prop-class=\"{{cxPropClass}}\" lt-prop-duration=\"{{cxPropDuration}}\" lt-prop-offset=\"{{cxPropOffset}}\" lt-prop-transition=\"{{cxPropTransition}}\" lt-prop-yield=\"true\" lt-prop-animation=\"{{cxPropAnimation}}\" lt-prop-close-manually=\"{{cxPropCloseManually}}\">  </lyte-messagebox>    <lyte-beta-popover class=\"mergeFeildPopOver\" lt-prop-wrapper-class=\"cxMergeFieldBodyPopover\" lt-prop-placement=\"bottom\" lt-prop-close-on-escape=\"{{cxPropCloseOnEscape}}\" lt-prop-max-height=\"300px\" lt-prop-width=\"{{cxPropWidth}}\" lt-prop-scrollable=\"true\" lt-prop-duration=\"50\" lt-prop-prevent-focus=\"true\" lt-prop-show-close-button=\"false\" lt-prop-show=\"{{cxPropShow}}\" lt-prop-freeze=\"false\" lt-prop-close-on-body-click=\"{{cxPropCloseOnBodyClick}}\" lt-prop-offset=\"{{cxPropOffset}}\" lt-prop-type=\"{{cxPropType}}\" lt-prop-auto-align=\"true\">  </lyte-beta-popover>  <lyte-modal lt-prop-allow-multiple=\"true\" lt-prop-show=\"{{lbind(cxPropShow)}}\" lt-prop-freeze=\"false\" lt-prop-width=\"{{cxPropWidth}}\" lt-prop-close-on-escape=\"false\" lt-prop-show-close-button=\"false\" lt-prop-transition=\"{&quot;animation&quot;:&quot;slideFromBottom&quot;,&quot;duration&quot;:&quot;0.5&quot;}\" lt-prop-offset=\"{&quot;right&quot;:&quot;0px&quot;,&quot;bottom&quot;:&quot;30px&quot;}\" lt-prop-wrapper-class=\"cxSchedularModal cxSchedularModal_{{cxPropClass}}\">  </lyte-modal>    <div class=\"criteriaTd criteriaNumber\"> <div class=\"cxCriteriaNumWrap\">  <input type=\"text\" data-zcqa=\"criteria_patternnum_{{criteriaIndex}}\" id=\"patternNum\" class=\"cxCriteriaPatternNum patterNum\" value=\"{{criteriaNumber}}\" readonly=\"\"> </div> </div>   <div class=\"criteriaTd cxAddRemoveTd\"> <div class=\"cxCriteriaAddRemove\">  </div> </div>  <div class=\"criteriaTd\"> <span class=\"cxCriteriaViewIndexSpan\" data-zcqa=\"criteria_view_patternnum_{{criteriaIndex}}\">{{criteriaIndex}}</span> </div>  <div class=\"criteriaTd cxCriteriaViewDataColumn\">  <span class=\"colorSpan\" data-zcqa=\"criteria_view_field_{{criteriaIndex}}\">{{field}}</span> <span class=\"mLR5 cxCriteriaViewComparatorLabel\" data-zcqa=\"criteria_view_comp_{{criteriaIndex}}\">{{captialize(condition)}}</span>  </div>    <span class=\"cxGroupPattern\"> <span class=\"cxPatternBrakets prevent\">(</span>  <span class=\"cxPatternBrakets prevent\">)</span> </span>  <crux-criteria-pattern class=\"prevent\" pattern-node=\"{{editPatternNode}}\" pattern-array=\"{{cxPropPatternArray}}\"></crux-criteria-pattern>       <lyte-alert lt-prop-yield=\"true\" lt-prop-wrapper-class=\"{{cxPropWrapperClass}} {{concat('alert-',cxPropType,'-box')}} rec-cust-alert\" id=\"recalert-{{id}}\" lt-prop-allow-multiple=\"true\" lt-prop-buttons=\"{{cxPropButtons}}\" lt-prop-show-close-button=\"{{cxPropCloseIcon}}\" lt-prop-button-position=\"{{cxPropButtonPosition}}\" lt-prop-close-on-escape=\"{{cxPropCloseOnEscape}}\" lt-prop-top=\"0\" lt-prop-content-align=\"{{cxPropContentAlign}}\" lt-prop-aria=\"{{cxPropAria}}\" lt-prop-aria-attributes=\"{{cxPropAriaAttributes}}\">  </lyte-alert>  <div class=\"{{cxPropClass}}\"> <a data-zcqa=\"{{cxPropZcqa}}\" class=\"{{cxPropIconClass}}\" rel=\"noopener noreferrer\" lt-prop-title=\"{{cxPropHelpTitle}}\" lt-prop-tooltip-config=\"{{ltPropTooltipConfig}}\" click=\"rec-help-link => open()\">{{cxPropHelpText}}</a> </div>       <lyte-yield yield-name=\"commonyield\"></lyte-yield>          <div class=\"crc-form-tabularblock\">  </div>  <crux-user-dropdown cx-prop-no-user-label=\"{{getI18n 'crm.label.select.recruiter'}}\" id=\"selectedRecruitersPotentials\" cx-prop-filterable=\"false\" cx-prop-login-user-required=\"false\" cx-prop-type=\"multiple\" placeholder=\"{{getI18n 'crm.cal.sel.users'}}\" selected-ids=\"\" cx-prop-selected-users=\"selectedRecruiters\" cx-prop-forced-fetch=\"true\"> </crux-user-dropdown>  <div> <ul>  </ul> </div>        <lyte-autocomplete lt-prop-content=\"{{lbind(ltPropContent)}}\" lt-prop-value=\"{{lbind(ltPropValue)}}\" lt-prop-external-search=\"true\" lt-prop-type=\"text\" lt-prop-label=\"value\" lt-prop-dropdown-height=\"300px\" lt-prop-dropdown-width=\"100%\" lt-prop-error-message=\"Location not found\"></lyte-autocomplete>          <lyte-dropdown id=\"cxd-{{id}}\" class=\"{{cxPropClass}}\" lt-prop-disabled-list=\"{{cxPropDisabledList}}\" lt-prop-no-result=\"{{cxPropNoResults}}\" lt-prop-user-value=\"{{cxPropUserValue}}\" lt-prop-options=\"{{cxPropList}}\" lt-prop-system-value=\"{{cxPropSystemValue}}\" lt-prop-placeholder=\"{{cxPropPlaceHolder}}\" lt-prop-disabled=\"{{cxPropDisabled}}\" lt-prop-selected=\"{{cxPropValue}}\" data-zcqa=\"{{cxPropZcqa}}\" lt-prop-tooltip=\"{ &quot;position&quot;: &quot;top&quot;, &quot;appearance&quot;: &quot;box&quot;,&quot;keeptooltip&quot;: true }\" lt-prop-tooltip-class=\"{{cxPropTooltipClass}}\" lt-prop-tab-index=\"{{cxPropTabIndex}}\" lt-prop-type=\"{{cxPropType}}\" lt-prop-freeze=\"{{cxPropFreeze}}\" lt-prop-prevent-parent-scroll=\"{{cxPropPreventParentScroll}}\" lt-prop-aria=\"{{cxPropAria}}\" lt-prop-aria-button=\"{{cxPropAriaButton}}\" lt-prop-active-element=\"{{expHandlers(expHandlers(cxPropList.length,'>',cxPropOpenSearch),'?:',expHandlers('#dd-sch-','+',id),'')}}\">  </lyte-dropdown>    <div class=\"consent-container\"> <p>{{cxPropField.consent_details.description}}</p>   </div>  <section class=\"cw-prw-wrapper cw-preview-wrapper font-{{font.family}}\"> <div class=\"edit-layout-block posR\"> <section class=\"cw-layout-section-{{header.layout}} cw-over-tooltip\"> <section class=\"cw-section cw-hero-banner {{meta.list_page_header_class}} cw-container-fluid cw-layout-section-{{header.layout}} {{getCWHeaderClass(header,'option-one-header posR home-background-gap',header.defaultimage,header.background.name)}}\" style=\"{{getBGImage(meta.page_id,header.background,header.background.name)}};background-position-y:0px;\" id=\"cw-header-section\"> <div class=\"header-img-overlay\" style=\"background-color:{{header.background.bgcolor}};opacity:{{header.background.transparency}}\"></div>   </section> <section class=\"clearfix cw-job-listing posR cw-section-space {{if(refer_without_job,'ref-without-job')}}\" id=\"Jobs\">  </section> </section> </div> <career-website-footer locale=\"{{meta.language}}\" meta=\"{{meta}}\" cx-prop-show-powered-by=\"{{meta.powered_by}}\" cx-prop-rec-home=\"{{meta.recruit_home}}\" type=\"publish\" footer=\"{{footer}}\" cx-prop-font=\"{{font}}\" cx-prop-from=\"list\" cx-prop-list-url=\"{{meta.list_url}}\" cx-prop-website=\"{{meta.org_info.website}}\"></career-website-footer> </section>  <a href=\"about:blank#top\" id=\"back-top\" style=\"background:{{font.color.brand}}\"> <span class=\"cw-long-arrow-top\"></span> </a>  <div class=\"cw-progress-bar disN\" id=\"cwProgBar\"></div> <section class=\"cw-jobtitle clearfix font-{{font.family}}\"> <div class=\"cw-innerpage-container cw-jobdetails-wrapper\"> <figure class=\"logo\"> <a href=\"https://f22labs.zohorecruit.in/jobs/Careers\" rel=\"noopener noreferrer\" class=\"brand\">  </a> </figure> </div>  <div class=\"cw-container-fluid default-photo-header{{getCWHeaderClass(header,'option-one-header posR',header.defaultimage)}} cw-details-background {{meta.detail_page_header_class}}\" style=\"{{getBGImage(meta.page_id,header.background)}};background-position-y:0px;\"> <div class=\"header-img-overlay\" style=\"background-color:{{header.background.bgcolor}};opacity:{{header.background.transparency}}\"></div> <div class=\"cw-jobheader-information cw-jobdetails-wrapper clearfix\"> <div class=\"cw-jobheader-info\">  <h1 style=\"color:{{header.background.textcolor}}\" class=\"job_detil\">{{record.Posting_Title}} <div class=\"ijb-tags-wrapper\">  </div> </h1> <p style=\"color:{{header.background.textcolor}}\">   </p>  </div> </div> </div> <div class=\"cw-jobdetails-container cw-jobdetails-wrapper posR\">  </div> </section> <career-website-footer meta=\"{{meta}}\" locale=\"{{meta.language}}\" cx-prop-show-powered-by=\"{{meta.powered_by}}\" cx-prop-class=\"text-center clearfix\" footer=\"{{footer}}\" type=\"publish\" cx-prop-rec-home=\"{{meta.recruit_home}}\" cx-prop-font=\"{{font}}\" cx-prop-from=\"detail\" cx-prop-list-url=\"{{expHandlers(meta.listpage_callback_url,'?:',meta.listpage_callback_url,meta.list_url)}}\" cx-prop-website=\"{{meta.org_info.website}}\"></career-website-footer> <a href=\"about:blank#top\" id=\"back-top\" style=\"background:{{font.color.brand}}\"><span class=\"cw-long-arrow-top\"></span> </a>              <lyte-modal id=\"job_alert-filtercriteria-pop\" lt-prop-allow-multiple=\"true\" lt-prop-width=\"750px\" lt-prop-show=\"{{lbind(showFilterModal)}}\" lt-prop-offset=\"{&quot;top&quot;:&quot;0&quot;}\" lt-prop-show-close-button=\"false\" lt-prop-wrapper-class=\"create-job-alert-pop-wrap zr-crux-form-horizontal\">  </lyte-modal>    <div class=\"lyteField {{if(ltPropSuffix,'lyteNumberSuffix','')}}\"> <input type=\"text\" name=\"{{ltPropName}}\" class=\"{{ltPropClass}}\" id=\"{{ltPropId}}\" placeholder=\"{{ltPropPlaceholder}}\" value=\"{{lbind(ltPropValue)}}\" disabled=\"{{ltPropDisabled}}\" readonly=\"{{ltPropReadonly}}\" style=\"{{ltPropStyle}}\" title=\"{{ltPropInputTitle}}\" pattern=\"{{ltPropPattern}}\" autocomplete=\"{{ltPropAutocomplete}}\" tabindex=\"{{ltPropTabIndex}}\" data-tabindex=\"{{ltPropDataTabindex}}\" keydown=\"lyte-number => keydown(event,this)\" focus=\"lyte-number => focus(event,this)\">    </div>     <div class=\"ijb-job-container\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:{{font.color.brand}}\" class=\"cw-3-title cw-bw\" href=\"https://f22labs.zohorecruit.in/jobs/Careers\">{{record.Posting_Title}}</a> </h3> <p class=\"filter-subhead cw-bw\" style=\"color:{{font.color.text}}\">  <span class=\"search-work-remote\">  </span>  </p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  </span> </div> </div> <div class=\"ijb-publish-type\">     </div>  <lyte-popover lt-prop-origin-elem=\"{{outlet}}\" lt-prop-freeze=\"false\" lt-prop-scrollable=\"true\" lt-prop-placement=\"bottom\" lt-prop-show-close-button=\"false\" lt-prop-show=\"{{show}}\" lt-prop-duration=\"400\" lt-prop-header-padding=\"15px 30px\" lt-prop-content-padding=\"15px 30px\" lt-prop-footer-padding=\"15px 30px\" lt-prop-window-spacing=\"{&quot;top&quot;:&quot;30&quot;,&quot;left&quot;:&quot;30&quot;,&quot;bottom&quot;:&quot;30&quot;,&quot;right&quot;:&quot;30&quot;}\">  </lyte-popover>  <div class=\"cw-list-share-circles {{cxPropClass}}\"> <div class=\"sj-share-icon\"> <span class=\"fa fa-share-alt\" style=\"color:{{cxPropColor}}\"></span> </div> <ul class=\"social-list social-active\"> <li> <a style=\"border: 1px solid {{cxPropColor}};\" href=\"https://www.facebook.com/sharer/sharer.php?u={{encodeURIComponent(expHandlers(cxPropShortenUrl,%27+%27,expHandlers(cxPropAddSource,%27?:%27,%27&amp;_referral_source=Facebook%27,%27%27)))}}\" rel=\"noopener noreferrer\" click=\"share-job => openurl(event)\"> <span class=\"fa fa-facebook\" style=\"color:{{cxPropColor}}\"></span> </a> </li> <li> <a style=\"border: 1px solid {{cxPropColor}};\" href=\"https://twitter.com/intent/tweet?url={{encodeURIComponent(expHandlers(cxPropShortenUrl,%27+%27,expHandlers(cxPropAddSource,%27?:%27,%27&amp;_referral_source=Twitter%27,%27%27)))}}&amp;text={{encodeURIComponent(cxPropTwitterText)}}&amp;via={{encodeURIComponent(cxPropCompanyName)}}&amp;hashtags={{encodeURIComponent(replaceSpace(cxPropCompanyName))}}\" target=\"_blank\" rel=\"noopener noreferrer\" click=\"share-job => openurl(event)\"> <span class=\"fa fa-twitter\" style=\"color:{{cxPropColor}}\"></span> </a> </li> <li> <a style=\"border: 1px solid {{cxPropColor}};\" href=\"https://www.linkedin.com/sharing/share-offsite/?url={{encodeURIComponent(expHandlers(cxPropPageUrl,%27+%27,expHandlers(cxPropAddSource,%27?:%27,%27&amp;_referral_source=LinkedIn%27,%27%27)))}}{{encodeURIComponent(%27&amp;t=%27)}}{{randomNumber}}\" target=\"_blank\" rel=\"noopener noreferrer\" click=\"share-job => openurl(event)\"> <span class=\"fa fa-linkedin\" style=\"color:{{cxPropColor}}\"></span> </a> </li> <li> <a style=\"border: 1px solid {{cxPropColor}};\" href=\"https://wa.me/?text={{encodeURIComponent(cxPropTwitterText)}}%20{{encodeURIComponent(expHandlers(cxPropShortenUrl,%27+%27,expHandlers(cxPropAddSource,%27?:%27,%27&amp;_referral_source=WhatsApp%27,%27%27)))}}\" target=\"_blank\" rel=\"noopener noreferrer\" click=\"share-job => openurl(event)\"> <span class=\"fa fa-whatsapp\" style=\"color:{{cxPropColor}}\"></span> </a> </li> <li> <a style=\"border: 1px solid {{cxPropColor}};\" href=\"https://telegram.me/share/url?url={{encodeURIComponent(expHandlers(cxPropShortenUrl,%27+%27,expHandlers(cxPropAddSource,%27?:%27,%27&amp;_referral_source=Telegram%27,%27%27)))}}&amp;text={{encodeURIComponent(cxPropTwitterText)}}\" target=\"_blank\" rel=\"noopener noreferrer\" click=\"share-job => openurl(event)\"> <span class=\"fa fa-telegram\" style=\"color:{{cxPropColor}}\"></span> </a> </li> <li> <a style=\"border: 1px solid {{cxPropColor}};\" id=\"share-cp-link\" href=\"https://f22labs.zohorecruit.in/jobs/Careers\" rel=\"noopener noreferrer\" click=\"share-job => copyLink(event)\"> <span class=\"fa fa-link\" style=\"color:{{cxPropColor}}\"></span> </a> </li> </ul> </div>  <li class=\"{{if(condition(index,operation(toindex,1,'-'),'>'),'disN','')}}\" click=\"career-website-job-listing-layout1 => clickJob(this)\">  <h3> <a class=\"cw-1-title\" data-zrqa=\"cw-job1-name{{index}}\" href=\"https://f22labs.zohorecruit.in/jobs/Careers\" style=\"color:{{font.color.brand}}\">{{record.Posting_Title}}</a>  </h3> <lyte-text data-zrqa=\"cw-job1-citycnt{{index}}\" style=\"color:{{font.color.text}}\">  <lyte-text lt-prop-value=\"{{expHandlers(expHandlers(record.City,'&amp;&amp;',record.Country),'?:',expHandlers(expHandlers(record.City,'+',', '),'+',record.Country),expHandlers(record.City,'?:',record.City,record.Country))}}\"></lyte-text> </lyte-text> </li>  <div data-zrqa=\"cw-eeo-disc-{{page_from}}\" class=\"{{if(ifEquals(page_from,&quot;job_list&quot;),&quot;cw-eeo-disclaimer-margin&quot;,&quot;cw-eeo-detail&quot;)}}\">  </div>    <div class=\"careers-search-results\" data-zrqa=\"cw-ej\"> <h1>  </h1>  </div>  <div class=\"careers-nojobsearch-results\">  </div>    <div class=\"dummy-freeze-screen disN\"></div> <lyte-popover id=\"competency-skill-popover\" lt-prop-wrapper-class=\"skl-lyte-popover-box\" lt-prop-origin-elem=\"#tabLayer\" lt-prop-show=\"true\" lt-prop-placement=\"bottom\" data-entityid=\"{{entityId}}\" data-module=\"{{module}}\" lt-prop-close-on-escape=\"true\" lt-prop-close-on-body-click=\"false\" lt-prop-force-scroll=\"true\">  </lyte-popover>    <lyte-popover id=\"sugg-skill-popover\" lt-prop-type=\"box\" lt-prop-origin-elem=\"{{suggSkillsPopOrigin}}\" lt-prop-show=\"{{if(isSuggestionsVisible,'true','false')}}\" lt-prop-placement=\"bottom top\" lt-prop-freeze=\"false\" lt-prop-show-close-button=\"false\" lt-prop-wrapper-class=\"{{suggSkillsPopClass}}\" lt-prop-scrollable=\"true\" lt-prop-close-on-escape=\"true\" lt-prop-close-on-body-click=\"false\" lt-prop-force-scroll=\"true\" lt-prop-width=\"{{lytePopoverWidth}}\" lt-prop-aria=\"{{cxPropAria}}\" lt-prop-aria-attributes=\"{{cxPropPopupAriaAttributes}}\">  </lyte-popover>  <div class=\"cnd-popup-overlay\" style=\"display:{{if(showNav,'block','none')}}\"></div>  <div class=\"cnl-profile-btn cnd-profile-top-nav cnd-humbar-menu\" click=\"new-candidate-portal-menu => enableNav()\">  </div> <div class=\"cnd-profile-top-menu{{if(showNav,' topmenu-slideright')}}\"> <a class=\"profile-close\" click=\"new-candidate-portal-menu => enableNav()\"></a> <div class=\"clearfix cnd-profile-menu-wrap\"> <div class=\"cnd-avatar-preview\">  </div> <div class=\"cnd-avatar-details\"> <h2></h2> <p lt-prop-title=\"{{candidate.Email}}\" lt-prop-tooltip-config=\"{&quot;position&quot; : &quot;top&quot;, &quot;appearance&quot; : &quot;box&quot;, &quot;margin&quot; : &quot;5&quot;}\">{{candidate.Email}}</p>  <p class=\"cnd-profile-linkblk\">  </p> </div> </div>  </div>  <div class=\"cw-text-input-loading\"> <div class=\"cw-loading-line hedader\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line hedader\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line hedader\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> <div class=\"cw-loading-line label\"></div> <div class=\"cw-loading-line input\"></div> </div>  <div class=\"cw-privacy-text\"> <rec-editor-component cx-prop-from=\"view\" cx-prop-class=\"zr-prv-msg\" cx-prop-value=\"{{editorContent}}\"> </rec-editor-component></div>  <lyte-yield yield-name=\"lyte-content\"></lyte-yield>       <lyte-yield yield-name=\"yield\" style=\"display: none;\" lyte-options=\"{{ltPropOptions}}\"></lyte-yield>    <button type=\"{{ltPropType}}\" class=\"{{finalClass}}\" value=\"{{ltPropValue}}\" tabindex=\"{{ltPropTabindex}}\" data-tabindex=\"{{ltPropDataTabindex}}\" id=\"{{ltPropId}}\" name=\"{{ltPropName}}\" autofocus=\"{{ltPropAutofocus}}\" disabled=\"{{ltPropDisabled}}\" style=\"{{finalStyle}}\">  </button>      <lyte-hovercard lt-prop-origin-elem=\"#{{lyteUiGetChkboxGrpId()}}\" lt-prop-max-width=\"250px\" lt-prop-auto-show=\"true\" lt-prop-placement=\"top bottom\" lt-prop-hide-on-click=\"true\" lt-prop=\"{{ltPropHoverCard}}\">  </lyte-hovercard>  <lyte-input lt-prop-auto-update=\"{{ltPropAutoUpdate}}\" lt-prop-tab-index=\"{{ltPropTabIndex}}\" lt-prop-data-tabindex=\"{{ltPropDataTabindex}}\" lt-prop-id=\"{{ltPropId}}\" lt-prop-wrapper-style=\"{{ltPropWrapperStyle}}\" lt-prop-class=\"{{ltPropClass}}\" lt-prop-autofocus=\"{{ltPropAutofocus}}\" lt-prop-autocomplete=\"{{ltPropAutocomplete}}\" lt-prop-type=\"{{ltPropType}}\" lt-prop-name=\"{{ltPropName}}\" lt-prop-placeholder=\"{{ltPropPlaceholder}}\" lt-prop-width=\"{{ltPropWidth}}\" lt-prop-height=\"{{ltPropHeight}}\" lt-prop-style=\"{{ltPropStyle}}\" lt-prop-value=\"{{lbind(ltPropValue)}}\" lt-prop-appearance=\"{{ltPropAppearance}}\" lt-prop-direction=\"{{ltPropDirection}}\" lt-prop-disabled=\"{{ltPropDisabled}}\" lt-prop-readonly=\"{{ltPropReadonly}}\" lt-prop-input-title=\"{{ltPropInputTitle}}\" lt-prop-pattern=\"{{ltPropPattern}}\" lt-prop-maxlength=\"{{ltPropMaxlength}}\" lt-prop-close-icon=\"{{ltPropCloseIcon}}\" is-search=\"true\" lt-prop-update-delay=\"{{ltPropUpdateDelay}}\" lt-prop-aria=\"{{ltPropAria}}\" lt-prop-aria-attributes=\"{{ltPropAriaAttributes}}\" lt-prop-focus=\"{{lbind(ltPropFocus)}}\" class=\"lyteSearchInput\" lt-prop=\"{{ltPropInput}}\" keyup=\"lyte-search => keyup(event,this)\" keypress=\"lyte-search => keypress(event,this)\"></lyte-input>           <div class=\"ziamatching-jobs-text p4 fs13px ffbold colzia pB10\" style=\"line-height: 18px;\">{{topMessage}}</div> <div class=\"colzia ziamatching-jobs-container\" style=\"overflow: hidden;\"> <div class=\"showZiaMessage fs13px\"> <div class=\"td_headerview_rec\"> <span class=\"ffproxibld ziamacthing-header\">Job Details</span> </div> </div> <div class=\"showZiaMessage\"> <div id=\"paramPromptWrapper\" data-index=\"1\" data-parent-index=\"51\">   </div> </div> </div>  <div class=\"ziamatching-jobs-text p4 fs13px ffbold colzia pB10\" style=\"line-height: 18px;\">{{topMessage}}</div> <a href=\"about:blank#\" id=\"chatbot-job-list-prev\" class=\"ziabot-slide-btn ziabot-prev {{if(ifEquals(activeJobIndex,0),'zia-btn-disabled','')}}\" click=\"chatbot-job-list => showPrevJob()\"> previous</a> <a href=\"about:blank#\" id=\"chatbot-job-list-next\" class=\"ziabot-slide-btn ziabot-next {{if(ifEquals(activeJobIndex,arithmetic(totalJobsCount,1,'-')),'zia-btn-disabled','')}}\" click=\"chatbot-job-list => showNextJob()\">next</a> <div class=\"ziabot-job-listing-wrapper ziabot-joblisting\"> <ul>  <span></span>  <span></span>  </ul> </div>  <div class=\"ziabot-joblisting\"> <div class=\"ziabot-job-listing-description\"> <span> <h3> <a href=\"about:blank#\">{{title}}</a> </h3> <p class=\"ziachat-country\"> <span lt-prop-title=\"{{location}}\" lt-prop-tooltip-config=\"{&quot;position&quot;:&quot;bottom&quot;,&quot;appearance&quot; : &quot;box&quot;,&quot;margin&quot;: &quot;3px 0px 0px&quot;}\">  </span> <span lt-prop-title=\"{{type}}\" lt-prop-tooltip-config=\"{&quot;position&quot;:&quot;bottom&quot;,&quot;appearance&quot; : &quot;box&quot;,&quot;margin&quot;: &quot;3px 0px 0px&quot;}\">  </span> </p> <span class=\"zia-matches-box {{getChatbotZiaScoreColour(score)}}\" lt-prop-title=\"{{getI18n('crm.zia.score.matching',score)}}\" lt-prop-tooltip-class=\"zr-new-tt-lyte\" lt-prop-tooltip-config=\"{&quot;position&quot; : &quot;followcursor&quot;, &quot;appearance&quot; : &quot;box&quot;}\"> {{score}}% </span> </span> <div class=\"ziabot-job-description\"> <h3>Job Description</h3> {{unescape(sanitizeHTML(descriptionHTML))}} </div> </div> <div class=\"ziabot-listing-button-group\"> <input type=\"submit\" class=\"secondary\" value=\"Back\" click=\"chatbot-job-detail => hideJobDetail()\"> <input type=\"submit\" class=\"primary\" value=\"{{buttonValue}}\"> </div> </div>  <div class=\"ziamatching-jobs-text p4 fs13px ffbold colzia pB10\" style=\"line-height: 18px;\">{{message}}</div>   <p class=\"zia-step-count\" data-zcqa=\"zia-cb-step-count\">Step {{curStepInMandatorySecPrompt}}/{{totalNumOfStepsInMandatorySecPrompt}}</p> <div class=\"zia-form-wrapper cw-apply-form\"> <rec-form-component cx-prop-direction=\"vertical\" cx-prop-form-class=\"chat-bot-form\" cx-prop-wraprow-style=\"cnd-chatbot-wrapper\" cx-prop-zcqa=\"manual\" cx-prop-section-clear=\"false\" cx-prop-mandatory-type=\"star\" cx-prop-section=\"{{cxPropSection}}\" cx-prop-value=\"{{parsedResume}}\" cx-prop-form=\"create\" cx-prop-captcha-url=\"{{cxPropCaptchaInfo}}\" cx-prop-pre-field-details=\"{{cxPropPreFieldDetails}}\"></rec-form-component> </div> <p><input type=\"button\" value=\"{{if(ifEquals(curStepInMandatorySecPrompt,totalNumOfStepsInMandatorySecPrompt),'Submit','Next')}}\" class=\"zrc-btn-primary mL5\" click=\"zia-cb-portal-signup-form => submit()\"></p>  <div class=\"ziamatching-jobs-text p4 fs13px ffbold colzia pB10\" style=\"line-height: 18px;\">For privacy and security purposes, please go through the following points and provide consent.</div> <div class=\"colzia ziamatching-jobs-container\" style=\"overflow: hidden;\" id=\"cb-privacy-consent-list\"> <div class=\"showZiaMessage\"> <div id=\"paramPromptWrapper\" data-index=\"1\" data-parent-index=\"51\"> <div class=\" m4 fl wid100P pb15 mB0 listcard zia-jlist-block\"> <ul>  </ul> </div> </div> </div> </div> <div class=\"zvoice-col-xs-12 scrollAlign\" id=\"cb-privacy-consent-buttons\"> <div class=\"botSentContainer cB showUserSent noWrapBubbles\" style=\"width: 420px;\"> <span class=\"suggestion-item networkOnline\" click=\"chatbot-privacy-consent => sendPrivacyConsentMessage('Yes, I accept')\">Accept</span> <span class=\"suggestion-item networkOnline\" click=\"chatbot-privacy-consent => sendPrivacyConsentMessage('No, I decline')\">Decline</span> </div> </div>    <input class=\"fileuploadInput {{ltPropClass}}\" id=\"{{ltPropId}}\" type=\"file\" name=\"{{ltPropName}}\" multiple=\"{{ltPropMultiple}}\" accept=\"{{ltPropAccept}}\" change=\"lyte-fileupload => change(event,this)\"> <div tabindex=\"{{ltPropTabindex}}\" class=\"fileUploadWrapper {{fileClass}} {{if(ltPropMultiple,'multiFileupload','singleFileUpload')}} lyteFileUpd{{ltPropAppearance}}Type {{if(ltPropDisabled,'lyteFileUpdDisabled')}} {{maxFileClass}}\" style=\"outline: none;position: relative;\" aria-labelledby=\"{{randomAriaId}}\" data-tabindex=\"{{ltPropDataTabindex}}\" click=\"lyte-fileupload => click(event)\" keydown=\"lyte-fileupload => keydown(event)\">   </div>   <div class=\"lyteTableScroll\" mousedown=\"lyte-table => rowMouseDown(event)\">   </div>   <div class=\"{{containerClass}}\"> <div class=\"lyteCalendarView\"> <div>  </div> <div class=\"lyteCalTableContainer\" role=\"grid\">  </div> <div> <div class=\"lyteCalBtns\">   </div> </div> </div> </div>  <div class=\"screening-askziaheading\"> <span class=\"zia_icons_zia_chatHeader\"><span class=\"zia_icons_sb_chatavatar\"></span></span> <div class=\"askziaTit\" style=\"color: ;font-family:\">{{botName}}</div>  </div> <div class=\"ziaChat-screening-wrap {{checkAndAddBotHeightClass(cxPropStatus,consentAnswered,cxPropAnswers.length,enableBack,enableSubmit)}}\"> <div class=\"ziaChat-screening-wrap-inner\"> <div class=\"row-bot consent-wrap\"> <div class=\"botSentContainer1\"> <div class=\"zia_icons_sb_bg\"> <span class=\"zia_icons_sb_whitebg_small\"></span> </div> <div class=\"botSentText1\"> <div class=\"showZiaMessage\"> <span>{{getI18n(\"zr.zia.sb.consent.msg1\")}}</span> </div> </div> </div> <div class=\"botSentContainer1\"> <div class=\"botSentText1\"> <div class=\"showZiaMessage\"> <span> <ul>  </ul> </span> </div> </div>  </div>  </div>  </div>    </div> </div><lyte-tooltip lyte-rendered=\"\"> </lyte-tooltip></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:02.706899+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/career"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "title": "404: This page could not be found",
+              "theme-color": "#fefefe",
+              "viewport": "width=device-width",
+              "sentry-trace": "3479a8210f2e91bf4c87c6efec46575f-c07c56d8e4ce0fc6-1",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=3479a8210f2e91bf4c87c6efec46575f,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "msapplication-TileColor": "#da532c",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-2222-742a-8b2b-bed689c9cf29",
+              "sourceURL": "https://f22labs.com/career",
+              "url": "https://www.f22labs.com/career/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:41.927Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:04.896276+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/jobs"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "viewport": "width=device-width",
+              "msapplication-TileColor": "#da532c",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=ce654a6b6e20a63b7081c1a18eb39b20,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "theme-color": "#fefefe",
+              "title": "404: This page could not be found",
+              "sentry-trace": "ce654a6b6e20a63b7081c1a18eb39b20-466a915fbdce163e-1",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-2af2-7793-b972-4c9c5dab178f",
+              "sourceURL": "https://f22labs.com/jobs",
+              "url": "https://www.f22labs.com/jobs/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:44.437Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:06.864559+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/job-openings"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=773695e4e04a254f7dc685d51498a912,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "viewport": "width=device-width",
+              "title": "404: This page could not be found",
+              "sentry-trace": "773695e4e04a254f7dc685d51498a912-b5fe752a30af2a9c-1",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-324f-73d8-bb04-3076f52cb673",
+              "sourceURL": "https://f22labs.com/job-openings",
+              "url": "https://www.f22labs.com/job-openings/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:46.807Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:08.697412+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/open-positions"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "title": "404: This page could not be found",
+              "viewport": "width=device-width",
+              "theme-color": "#fefefe",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=34930fdc7a484d71e6fee950242d6d71,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "msapplication-TileColor": "#da532c",
+              "sentry-trace": "34930fdc7a484d71e6fee950242d6d71-2cb8b3c4f66525b2-1",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-39cf-75f9-a0f2-3d2dfcdd72d7",
+              "sourceURL": "https://f22labs.com/open-positions",
+              "url": "https://www.f22labs.com/open-positions/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:49.638Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:10.212949+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/join-us"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "title": "404: This page could not be found",
+              "sentry-trace": "ac23cc7b1f4288f48401c66eb3fd7651-5880b6c2c90d2645-1",
+              "viewport": "width=device-width",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=ac23cc7b1f4288f48401c66eb3fd7651,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-3f45-70e8-b2a6-61770ab89f53",
+              "sourceURL": "https://f22labs.com/join-us",
+              "url": "https://www.f22labs.com/join-us/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:52.156Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:12.035203+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/work-with-us"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "sentry-trace": "cae3b9771b279179b74d32cd31d7ad3b-1c0840806d091c28-1",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=cae3b9771b279179b74d32cd31d7ad3b,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "viewport": "width=device-width",
+              "title": "404: This page could not be found",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-46c4-76fc-9a59-6189d158dc20",
+              "sourceURL": "https://f22labs.com/work-with-us",
+              "url": "https://www.f22labs.com/work-with-us/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:54.660Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:13.614786+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/global/en/careers"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "sentry-trace": "385c421ac0a59b030bccf1e6e1d51255-4c7c5382797d7acb-1",
+              "title": "404: This page could not be found",
+              "msapplication-TileColor": "#da532c",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=385c421ac0a59b030bccf1e6e1d51255,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "viewport": "width=device-width",
+              "theme-color": "#fefefe",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-4ceb-77bc-8acb-f71149d6be74",
+              "sourceURL": "https://f22labs.com/global/en/careers",
+              "url": "https://www.f22labs.com/global/en/careers/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:57.102Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:15.170824+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/en/careers"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "viewport": "width=device-width",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "sentry-trace": "436d9be1ce8543422d1035411e8c85fa-9f42371b2c8df049-1",
+              "title": "404: This page could not be found",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=436d9be1ce8543422d1035411e8c85fa,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-5327-75ea-9572-32fbf8b231b1",
+              "sourceURL": "https://f22labs.com/en/careers",
+              "url": "https://www.f22labs.com/en/careers/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:32:59.856Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:17.126930+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/company/careers"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "viewport": "width=device-width",
+              "title": "404: This page could not be found",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "sentry-trace": "2ea27a290ac41b4f22dafc0dd91ee3e2-b998490683be66de-1",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=2ea27a290ac41b4f22dafc0dd91ee3e2,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-5add-743f-a705-056c5ca83802",
+              "sourceURL": "https://f22labs.com/company/careers",
+              "url": "https://www.f22labs.com/company/careers/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:33:02.217Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:18.696795+00:00",
+      "actor": "firecrawl",
+      "action": "fetch",
+      "input": {
+        "mode": "scrape",
+        "url": "https://f22labs.com/about/careers"
+      },
+      "output": {
+        "raw_keys": [
+          "data",
+          "success"
+        ],
+        "sample": {
+          "success": true,
+          "data": {
+            "markdown": "# 404\n\n## This page could not be found.",
+            "metadata": {
+              "viewport": "width=device-width",
+              "baggage": "sentry-environment=vercel-production,sentry-release=ae0fe47d92a83b7b2cf886cb3d92ca0b6d42a4c0,sentry-public_key=2d727915d126d8223fec41f7920d2720,sentry-trace_id=6c70bb148d3fa372ad48a898442a20c8,sentry-sample_rate=1,sentry-transaction=GET%20%2F_error,sentry-sampled=true",
+              "msapplication-TileColor": "#da532c",
+              "theme-color": "#fefefe",
+              "title": "404: This page could not be found",
+              "sentry-trace": "6c70bb148d3fa372ad48a898442a20c8-be6786f2581f528d-1",
+              "favicon": "https://www.f22labs.com/favicon-32x32.png",
+              "scrapeId": "019f4aed-60f5-7148-9b05-344e7cb4317c",
+              "sourceURL": "https://f22labs.com/about/careers",
+              "url": "https://www.f22labs.com/about/careers/",
+              "statusCode": 404,
+              "error": "Not Found",
+              "contentType": "text/html; charset=utf-8",
+              "proxyUsed": "basic",
+              "cacheState": "hit",
+              "cachedAt": "2026-07-10T01:33:04.449Z",
+              "creditsUsed": 1,
+              "concurrencyLimited": false
+            },
+            "html": "<!DOCTYPE html><html><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><next-route-announcer><p aria-live=\"assertive\" id=\"__next-route-announcer__\" role=\"alert\" style=\"border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;\"></p></next-route-announcer></body></html>"
+          }
+        }
+      },
+      "note": "Firecrawl fetch call"
+    },
+    {
+      "ts": "2026-07-10T07:28:19.913860+00:00",
+      "actor": "discovery",
+      "action": "candidate_pages",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": [
+        {
+          "url": "https://f22labs.com/careers",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/careers",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/career",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/career",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/jobs",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/jobs",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/job-openings",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/job-openings",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/open-positions",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/open-positions",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/join-us",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/join-us",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/work-with-us",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/work-with-us",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/global/en/careers",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/global/en/careers",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/en/careers",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/en/careers",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/company/careers",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/company/careers",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com/about/careers",
+          "source": "firecrawl",
+          "status_code": 200,
+          "final_url": "https://f22labs.com/about/careers",
+          "title": null,
+          "snippet": "",
+          "evidence": {
+            "firecrawl": {
+              "raw_keys": [
+                "data",
+                "success"
+              ]
+            }
+          }
+        },
+        {
+          "url": "https://f22labs.com",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        }
+      ],
+      "note": "Candidate careers URLs and probes"
+    },
+    {
+      "ts": "2026-07-10T07:28:45.092716+00:00",
+      "actor": "llm",
+      "action": "chat",
+      "input": {
+        "provider": "gemini",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "model": "gemini-2.5-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return strict JSON only."
+          },
+          {
+            "role": "user",
+            "content": "You are inspecting a company's careers source. Return strict JSON only.\nPick the best source type and describe listing/detail extraction hints.\nAllowed source_type values: api, json, html, spa.\nUse structural selectors or JSON paths only. No regex.\nTry to identify selectors or paths for title, url/apply_url, location, date_posted_text, employment_type, work_type, salary_range, and job_description whenever the source exposes them.\nDomain: f22labs.com\nEvidence: [{\"url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"status_code\": 200, \"title\": \"Jobs at F22Labs\", \"embedded_json_kinds\": [], \"api_candidates\": [{\"kind\": \"script_src\", \"url\": \"https://static.zohocdn.com/recruit/dist/bower_components_consolidated/lyte/custom-elements-es5-adapter.cff507bc95ad1d6bf1a415cc9c8852b0.js\"}, {\"kind\": \"script_src\", \"url\": \"https://static.zohocdn.com/recruit/dist/bower_components_consolidated/lyte/lyte.28de407fe7c8be3b8aa51de42ffdc728.js\"}, {\"kind\": \"script_src\", \"url\": \"https://static.zohocdn.com/recruit/dist/addons/@zoho/lyte-ui-component/dist/I18n/en_US.d56f344ce74e5a46c1895656cf7b52bf.js\"}], \"sample_links\": [\"https://www.f22labs.com\", \"https://www.f22labs.com/about/\", \"http://www.f22labs.com\", \"https://www.f22labs.com/project/\", \"https://www.f22labs.com/wall-of-love/\"]}, {\"url\": \"https://www.f22labs.com/career/\", \"status_code\": 404, \"title\": \"404: This page could not be found\", \"embedded_json_kinds\": [\"ld+json\", \"ld+json\", \"ld+json\", \"ld+json\", \"ld+json\"], \"api_candidates\": [{\"kind\": \"network\", \"url\": \"https://f22labs.com/career\"}, {\"kind\": \"network\", \"url\": \"https://www.f22labs.com/career\"}, {\"kind\": \"network\", \"url\": \"https://www.f22labs.com/career/\"}], \"sample_links\": []}, {\"url\": \"https://www.f22labs.com/jobs/\", \"status_code\": 404, \"title\": \"404: This page could not be found\", \"embedded_json_kinds\": [\"ld+json\", \"ld+json\", \"ld+json\", \"ld+json\", \"ld+json\"], \"api_candidates\": [{\"kind\": \"network\", \"url\": \"https://f22labs.com/jobs\"}, {\"kind\": \"network\", \"url\": \"https://www.f22labs.com/jobs\"}, {\"kind\": \"network\", \"url\": \"https://www.f22labs.com/jobs/\"}], \"sample_links\": []}]\n"
+          }
+        ],
+        "temperature": 0.1
+      },
+      "output": {
+        "response": "```json\n{\n  \"source_type\": \"spa\",\n  \"listing_page_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\",\n  \"listings_selector\": \"div.zrc-job-list-item\",\n  \"listing_hints\": {\n    \"title\": {\n      \"selector\": \"a.zrc-job-title\"\n    },\n    \"url\": {\n      \"selector\": \"a.zrc-job-title\",\n      \"attribute\": \"href\"\n    },\n    \"apply_url\": {\n      \"selector\": \"a.zrc-job-title\",\n      \"attribute\": \"href\"\n    },\n    \"location\": {\n      \"selector\": \"span.zrc-job-location\"\n    },\n    \"date_posted_text\": {\n      \"selector\": \"span.zrc-job-posted-date\"\n    },\n    \"employment_type\": {\n      \"selector\": \"span.zrc-job-employment-type\"\n    },\n    \"work_type\": {\n      \"selector\": \"span.zrc-job-work-type\"\n    }\n  },\n  \"detail_page_hints\": {\n    \"job_description\": {\n      \"selector\": \"div.zrc-job-description-content\"\n    },\n    \"title\": {\n      \"selector\": \"h1.zrc-job-detail-title\"\n    },\n    \"location\": {\n      \"selector\": \"span.zrc-job-detail-location\"\n    },\n    \"employment_type\": {\n      \"selector\": \"span.zrc-job-detail-employment-type\"\n    },\n    \"work_type\": {\n      \"selector\": \"span.zrc-job-detail-work-type\"\n    },\n    \"date_posted_text\": {\n      \"selector\": \"span.zrc-job-detail-posted-date\"\n    }\n  }\n}\n```",
+        "raw_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ]
+      },
+      "note": "Gemini completion call"
+    },
+    {
+      "ts": "2026-07-10T07:28:45.108631+00:00",
+      "actor": "investigation",
+      "action": "source_analysis",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "source_type": "spa",
+        "careers_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+        "platform": "zoho_recruit",
+        "api_url": null,
+        "jobs_found_during_investigation": true,
+        "job_count_detected": 2,
+        "job_titles": [
+          "Senior Project Manager",
+          "Product Management Intern"
+        ],
+        "listing_selector": "div[class~=\"cw-filter-joblist\"]",
+        "job_selector": "div[class~=\"cw-filter-joblist\"]",
+        "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+        "recommended_strategy": "beautifulsoup",
+        "json_paths": [
+          [],
+          [
+            "founders",
+            0
+          ],
+          [
+            "brand"
+          ],
+          [
+            "mainEntityOfPage",
+            0
+          ]
+        ],
+        "selectors": {
+          "listing": {
+            "items_selector": "a[href]",
+            "title_selector": "a",
+            "url_selector": "a[href]",
+            "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "description_selector": null,
+            "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+            "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+            "work_type_selector": null,
+            "salary_range_selector": null
+          },
+          "detail": {
+            "description_path": [
+              "description"
+            ]
+          },
+          "pagination": {
+            "type": "link",
+            "page_param": null
+          }
+        },
+        "pagination": {
+          "type": "link",
+          "text": "blog",
+          "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        "listing": {
+          "items_selector": "a[href]",
+          "title_selector": "a",
+          "url_selector": "a[href]",
+          "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+          "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+          "json_items_path": [
+            [],
+            [
+              "founders",
+              0
+            ],
+            [
+              "brand"
+            ],
+            [
+              "mainEntityOfPage",
+              0
+            ]
+          ]
+        },
+        "detail": {
+          "url_path": [
+            "url"
+          ],
+          "description_path": [
+            "description"
+          ]
+        },
+        "evidence": [
+          {
+            "url": "https://f22labs.zohorecruit.in/jobs/Careers",
+            "status_code": 200,
+            "title": "Jobs at F22Labs",
+            "embedded_json_kinds": [],
+            "api_candidates": [
+              {
+                "kind": "script_src",
+                "url": "https://static.zohocdn.com/recruit/dist/bower_components_consolidated/lyte/custom-elements-es5-adapter.cff507bc95ad1d6bf1a415cc9c8852b0.js"
+              },
+              {
+                "kind": "script_src",
+                "url": "https://static.zohocdn.com/recruit/dist/bower_components_consolidated/lyte/lyte.28de407fe7c8be3b8aa51de42ffdc728.js"
+              },
+              {
+                "kind": "script_src",
+                "url": "https://static.zohocdn.com/recruit/dist/addons/@zoho/lyte-ui-component/dist/I18n/en_US.d56f344ce74e5a46c1895656cf7b52bf.js"
+              },
+              {
+                "kind": "script_src",
+                "url": "https://static.zohocdn.com/recruit/dist/bower_components/crux-components/components/helpers/helper.d97005042885bab77ab37a16085ec731.js"
+              },
+              {
+                "kind": "script_src",
+                "url": "https://static.zohocdn.com/recruit/dist/bower_components/crux-components/I18n/crux_en_US.62dacd07dae02ba0ee093e2687f0d50a.js"
+              }
+            ],
+            "sample_links": [
+              "https://www.f22labs.com",
+              "https://www.f22labs.com/about/",
+              "http://www.f22labs.com",
+              "https://www.f22labs.com/project/",
+              "https://www.f22labs.com/wall-of-love/",
+              "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+              "javascript:void(0)",
+              "javascript:void(0);",
+              "https://f22labs.zohorecruit.in/jobs/Careers/65449000002129032/Senior-Project-Manager?source=CareerSite",
+              "https://f22labs.zohorecruit.in/jobs/Careers/65449000000416161/Product-Management-Intern?source=CareerSite"
+            ],
+            "snippet": "ABOUT SERVICES WORK WALL OF LOVE BLOG\nWe\u2019re Hiring \u0336N\u0336i\u0336n\u0336j\u0336a\u0336s\u0336 Humans\n\nOnly for serious folks. Work that challenges, excites, scares you and lets you go to bed satisfied!\n\nView Openings\nFilters\nSmart Filters\nJob Type\nFull time (2)\nJoin us\nCurrent Openings\nWhat\nWhere\nSearch\nSenior Project Manager\n\nChennai, Tamil Nadu, India\n4-5 years\n\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\n\nFull time\n07/31/2024\nProduct Management Intern Position filled\n\nChennai, Tamil Nadu, India\n0-1 year\n\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\n\nFull time\n07/27/2024\nVisit website\n\nPowered by"
+          },
+          {
+            "url": "https://www.f22labs.com/career/",
+            "status_code": 404,
+            "title": "404: This page could not be found",
+            "embedded_json_kinds": [
+              "ld+json",
+              "ld+json",
+              "ld+json",
+              "ld+json",
+              "ld+json"
+            ],
+            "api_candidates": [
+              {
+                "kind": "network",
+                "url": "https://f22labs.com/career",
+                "status": 308
+              },
+              {
+                "kind": "network",
+                "url": "https://www.f22labs.com/career",
+                "status": 308
+              },
+              {
+                "kind": "network",
+                "url": "https://www.f22labs.com/career/",
+                "status": 404
+              }
+            ],
+            "sample_links": [],
+            "snippet": "404\nThis page could not be found."
+          },
+          {
+            "url": "https://www.f22labs.com/jobs/",
+            "status_code": 404,
+            "title": "404: This page could not be found",
+            "embedded_json_kinds": [
+              "ld+json",
+              "ld+json",
+              "ld+json",
+              "ld+json",
+              "ld+json"
+            ],
+            "api_candidates": [
+              {
+                "kind": "network",
+                "url": "https://f22labs.com/jobs",
+                "status": 308
+              },
+              {
+                "kind": "network",
+                "url": "https://www.f22labs.com/jobs",
+                "status": 308
+              },
+              {
+                "kind": "network",
+                "url": "https://www.f22labs.com/jobs/",
+                "status": 404
+              }
+            ],
+            "sample_links": [],
+            "snippet": "404\nThis page could not be found."
+          }
+        ]
+      },
+      "note": "Detected source type spa; jobs_found=True; job_count=2; recommended_strategy=beautifulsoup"
+    },
+    {
+      "ts": "2026-07-10T07:28:53.024822+00:00",
+      "actor": "llm",
+      "action": "chat",
+      "input": {
+        "provider": "openai",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "model": "gpt-5-mini",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return strict JSON only."
+          },
+          {
+            "role": "user",
+            "content": "Create a strict JSON scrape plan for a job scraper script.\nThe plan must support one of these strategies: api, json, html, spa.\nUse the investigation payload as the source of truth. Do not infer new selectors or URLs unless the payload is empty.\nUse structural extraction only. No regex. Missing fields should be null.\nReturn keys: strategy, entry_url, output_path, pagination, listing, detail, filters, notes.\nUse JSON paths as arrays of keys/indices. Use CSS selectors for HTML extraction.\nContext: {\"domain\": \"f22labs.com\", \"investigation\": {\"source_type\": \"spa\", \"careers_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"platform\": \"zoho_recruit\", \"api_url\": null, \"jobs_found_during_investigation\": true, \"job_count_detected\": 2, \"job_titles\": [\"Senior Project Manager\", \"Product Management Intern\"], \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"recommended_strategy\": \"beautifulsoup\", \"json_paths\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]], \"selectors\": {\"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"description_selector\": null, \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"work_type_selector\": null, \"salary_range_selector\": null}, \"detail\": {\"description_path\": [\"description\"]}, \"pagination\": {\"type\": \"link\", \"page_param\": null}}, \"pagination\": {\"type\": \"link\", \"text\": \"blog\", \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\", \"rel\": [\"noopener\", \"noreferrer\"]}, \"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"json_items_path\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]]}, \"detail\": {\"url_path\": [\"url\"], \"description_path\": [\"description\"]}}}"
+          }
+        ],
+        "temperature": null
+      },
+      "output": {
+        "response": "{\n  \"strategy\": \"spa\",\n  \"entry_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\",\n  \"output_path\": \"jobs.json\",\n  \"pagination\": {\n    \"type\": \"link\",\n    \"link_selector\": null,\n    \"page_param\": null,\n    \"notes\": \"Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).\"\n  },\n  \"listing\": {\n    \"items_path\": null,\n    \"items_selector\": [\n      \"a[href]\"\n    ],\n    \"title_selector\": [\n      \"a\"\n    ],\n    \"url_selector\": [\n      \"a[href]\"\n    ],\n    \"location_selector\": [\n      \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"\n    ],\n    \"description_selector\": null,\n    \"date_posted_text_selector\": [\n      \"span[class~=\\\"search-date-type\\\"]\"\n    ],\n    \"employment_type_selector\": [\n      \"div[class~=\\\"cw-filter-joblist-right\\\"]\"\n    ],\n    \"work_type_selector\": null,\n    \"salary_range_selector\": null,\n    \"json_items_path\": [\n      [],\n      [\n        \"founders\",\n        0\n      ],\n      [\n        \"brand\"\n      ],\n      [\n        \"mainEntityOfPage\",\n        0\n      ]\n    ],\n    \"notes\": \"Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.\"\n  },\n  \"detail\": {\n    \"url_path\": [\n      \"url\"\n    ],\n    \"description_path\": [\n      \"description\"\n    ],\n    \"detail_selector\": [\n      \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"\n    ],\n    \"notes\": \"Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.\"\n  },\n  \"filters\": {\n    \"locations\": null,\n    \"employment_types\": null,\n    \"keywords\": null,\n    \"posted_since\": null,\n    \"notes\": \"No filter selectors or parameters provided in investigation payload; keep filters null.\"\n  },\n  \"notes\": \"Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs.\"\n}",
+        "raw_keys": [
+          "choices",
+          "created",
+          "id",
+          "model",
+          "object",
+          "service_tier",
+          "system_fingerprint",
+          "usage"
+        ]
+      },
+      "note": "LLM completion call"
+    },
+    {
+      "ts": "2026-07-10T07:28:53.024822+00:00",
+      "actor": "planning",
+      "action": "scrape_plan",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "strategy": "spa",
+        "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+        "output_path": "jobs.jsonl",
+        "browser_required": true,
+        "pagination": {
+          "type": "link",
+          "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+          "text": "blog",
+          "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        "listing": {
+          "items_selector": "a[href]",
+          "title_selector": "a",
+          "url_selector": "a[href]",
+          "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+          "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+          "json_items_path": [
+            [],
+            [
+              "founders",
+              0
+            ],
+            [
+              "brand"
+            ],
+            [
+              "mainEntityOfPage",
+              0
+            ]
+          ],
+          "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+          "job_selector": "div[class~=\"cw-filter-joblist\"]",
+          "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+        },
+        "detail": {
+          "url_path": [
+            "url"
+          ],
+          "description_path": [
+            "description"
+          ],
+          "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+          "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+        },
+        "filters": {
+          "locations": null,
+          "employment_types": null,
+          "keywords": null,
+          "posted_since": null,
+          "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+        },
+        "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs."
+      },
+      "note": "Planned strategy=spa; browser_required=True; jobs_found=True"
+    },
+    {
+      "ts": "2026-07-10T07:28:53.047727+00:00",
+      "actor": "code_generation",
+      "action": "render_script",
+      "input": {
+        "plan": {
+          "strategy": "spa",
+          "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+          "output_path": "jobs.jsonl",
+          "browser_required": true,
+          "pagination": {
+            "type": "link",
+            "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+            "text": "blog",
+            "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+            "rel": [
+              "noopener",
+              "noreferrer"
+            ]
+          },
+          "listing": {
+            "items_selector": "a[href]",
+            "title_selector": "a",
+            "url_selector": "a[href]",
+            "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+            "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+            "json_items_path": [
+              [],
+              [
+                "founders",
+                0
+              ],
+              [
+                "brand"
+              ],
+              [
+                "mainEntityOfPage",
+                0
+              ]
+            ],
+            "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+            "job_selector": "div[class~=\"cw-filter-joblist\"]",
+            "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+          },
+          "detail": {
+            "url_path": [
+              "url"
+            ],
+            "description_path": [
+              "description"
+            ],
+            "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+            "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+          },
+          "filters": {
+            "locations": null,
+            "employment_types": null,
+            "keywords": null,
+            "posted_since": null,
+            "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+          },
+          "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs."
+        }
+      },
+      "output": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py"
+      },
+      "note": "Generated browser-capable scraper"
+    },
+    {
+      "ts": "2026-07-10T07:30:42.259456+00:00",
+      "actor": "execution",
+      "action": "run_script",
+      "input": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py",
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "exit_code": 0,
+        "stdout": "{\"output\": \"jobs.jsonl\", \"jobs\": 0}\n",
+        "stderr": "",
+        "output_path": "jobs.jsonl",
+        "duration_seconds": 109.17352652549744
+      },
+      "note": "Executed generated scraper"
+    },
+    {
+      "ts": "2026-07-10T07:30:42.259456+00:00",
+      "actor": "verification",
+      "action": "validate_output",
+      "input": {
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "ok": false,
+        "job_count": 0,
+        "india_job_count": 0,
+        "issues": [
+          {
+            "code": "too_few_jobs",
+            "message": "Expected at least 1 jobs, found 0",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "no_india_jobs",
+            "message": "No India jobs were found",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "investigation_mismatch",
+            "message": "Investigation already observed jobs, but the generated scraper returned 0 jobs.",
+            "severity": "error",
+            "sample": null
+          }
+        ]
+      },
+      "note": "Validated output JSONL"
+    },
+    {
+      "ts": "2026-07-10T07:30:48.794394+00:00",
+      "actor": "llm",
+      "action": "chat",
+      "input": {
+        "provider": "openai",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "model": "gpt-5-mini",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return strict JSON only."
+          },
+          {
+            "role": "user",
+            "content": "The generated job scraper failed execution or validation. Produce a corrected strict JSON scrape plan.\nUse the original investigation output, the current plan, the generated scraper, the traceback, and the validation report to make targeted fixes.\nDo not guess new selectors. Modify only the failing parts.\nKeep the output schema the same. No regex. Structural extraction only.\nDomain: f22labs.com\nInvestigation: {\"source_type\": \"spa\", \"careers_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"platform\": \"zoho_recruit\", \"api_url\": null, \"jobs_found_during_investigation\": true, \"job_count_detected\": 2, \"job_titles\": [\"Senior Project Manager\", \"Product Management Intern\"], \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"recommended_strategy\": \"beautifulsoup\", \"json_paths\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]], \"selectors\": {\"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"description_selector\": null, \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"work_type_selector\": null, \"salary_range_selector\": null}, \"detail\": {\"description_path\": [\"description\"]}, \"pagination\": {\"type\": \"link\", \"page_param\": null}}, \"pagination\": {\"type\": \"link\", \"text\": \"blog\", \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\", \"rel\": [\"noopener\", \"noreferrer\"]}, \"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"json_items_path\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]]}, \"detail\": {\"url_path\": [\"url\"], \"description_path\": [\"description\"]}}\nCurrent plan: {\"strategy\": \"spa\", \"entry_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"output_path\": \"jobs.jsonl\", \"browser_required\": true, \"pagination\": {\"type\": \"link\", \"notes\": \"Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).\", \"text\": \"blog\", \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\", \"rel\": [\"noopener\", \"noreferrer\"]}, \"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"json_items_path\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]], \"notes\": \"Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.\", \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\"}, \"detail\": {\"url_path\": [\"url\"], \"description_path\": [\"description\"], \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"notes\": \"Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.\", \"description_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"}, \"filters\": {\"locations\": null, \"employment_types\": null, \"keywords\": null, \"posted_since\": null, \"notes\": \"No filter selectors or parameters provided in investigation payload; keep filters null.\"}, \"notes\": \"Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs.\"}\nGenerated scraper: #!/usr/bin/env python3\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport sys\nfrom datetime import datetime\nfrom pathlib import Path\nfrom typing import Any\n\nimport requests\n\nENTRY_URL = 'https://f22labs.zohorecruit.in/jobs/Careers'\nDEFAULT_OUTPUT = 'jobs.jsonl'\nPAGINATION = {'type': 'link', 'notes': 'Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).', 'text': 'blog', 'href': 'https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1', 'rel': ['noopener', 'noreferrer']}\nLISTING = {'items_selector': 'a[href]', 'title_selector': 'a', 'url_selector': 'a[href]', 'location_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]', 'date_posted_text_selector': 'span[class~=\"search-date-type\"]', 'employment_type_selector': 'div[class~=\"cw-filter-joblist-right\"]', 'json_items_path': [[], ['founders', 0], ['brand'], ['mainEntityOfPage', 0]], 'notes': 'Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.', 'job_selector': 'div[class~=\"cw-filter-joblist\"]', 'listing_selector': 'div[class~=\"cw-filter-joblist\"]'}\nDETAIL = {'url_path': ['url'], 'description_path': ['description'], 'detail_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]', 'notes': 'Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.', 'description_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]'}\nFILTERS = {'notes': 'No filter selectors or parameters provided in investigation payload; keep filters null.'}\n\ndef read_json_path(value: Any, path: list[Any]) -> Any:\n    if not path:\n        return None\n    current = value\n    for part in path:\n        if current is None:\n            return None\n        if isinstance(part, int):\n            if not isinstance(current, list) or part >= len(current):\n                return None\n            current = current[part]\n        else:\n            if not isinstance(current, dict):\n                return None\n            current = current.get(part)\n    return current\n\ndef string_or_none(value: Any) -> str | None:\n    if value is None:\n        return None\n    text = str(value).strip()\n    return text or None\n\ndef normalize_text(value: Any) -> str | None:\n    if value is None:\n        return None\n    text = \" \".join(str(value).split())\n    return text or None\n\ndef parse_date_value(value: Any) -> str | None:\n    if value is None:\n        return None\n    if isinstance(value, datetime):\n        return value.date().isoformat()\n    text = normalize_text(value)\n    if not text:\n        return None\n    for fmt in (\"%Y-%m-%d\", \"%m/%d/%Y\", \"%d/%m/%Y\", \"%m-%d-%Y\", \"%d-%m-%Y\", \"%b %d, %Y\", \"%B %d, %Y\"):\n        try:\n            return datetime.strptime(text, fmt).date().isoformat()\n        except ValueError:\n            continue\n    try:\n        return datetime.fromisoformat(text).date().isoformat()\n    except ValueError:\n        return text\n\ndef parse_location(text: Any, city: Any = None, state: Any = None, country: Any = None, country_code: Any = None) -> dict[str, Any]:\n    location = {\n        \"city\": normalize_text(city),\n        \"state\": normalize_text(state),\n        \"country\": normalize_text(country),\n        \"country_code\": normalize_text(country_code),\n    }\n    if text and not location[\"country\"]:\n        parts = [part.strip() for part in str(text).split(\",\") if part.strip()]\n        if len(parts) >= 1 and not location[\"city\"]:\n            location[\"city\"] = parts[0]\n        if len(parts) >= 2 and not location[\"state\"]:\n            location[\"state\"] = parts[1]\n        if parts:\n            last = parts[-1].lower()\n            if \"india\" in last or last == \"in\" or last.startswith(\"india \"):\n                location[\"country\"] = \"India\"\n                location[\"country_code\"] = \"IN\"\n            elif not location[\"country\"]:\n                location[\"country\"] = parts[-1]\n    if not location[\"country\"]:\n        lowered_text = str(text or \"\").lower()\n        if \"india\" in lowered_text:\n            location[\"country\"] = \"India\"\n            location[\"country_code\"] = \"IN\"\n    if not location[\"country\"] and FILTERS.get(\"country\"):\n        location[\"country\"] = FILTERS.get(\"country\")\n    if not location[\"country_code\"] and FILTERS.get(\"country_code\"):\n        location[\"country_code\"] = FILTERS.get(\"country_code\")\n    return location\n\ndef pick_first(*values: Any) -> Any:\n    for value in values:\n        if value is None:\n            continue\n        if isinstance(value, str) and not value.strip():\n            continue\n        return value\n    return None\n\ndef make_job(\n    title: Any,\n    job_id: Any,\n    location: dict[str, Any],\n    url: Any,\n    apply_url: Any,\n    date_posted: Any = None,\n    date_posted_text: Any = None,\n    job_description: Any = None,\n    employment_type: Any = None,\n    work_type: Any = None,\n    salary_range: Any = None,\n) -> dict[str, Any]:\n    return {\n        \"title\": normalize_text(title),\n        \"job_id\": string_or_none(job_id),\n        \"location\": location,\n        \"url\": string_or_none(url),\n        \"apply_url\": string_or_none(apply_url),\n        \"date_posted\": parse_date_value(date_posted),\n        \"date_posted_text\": string_or_none(date_posted_text),\n        \"job_description\": normalize_text(job_description),\n        \"employment_type\": string_or_none(employment_type),\n        \"work_type\": string_or_none(work_type),\n        \"salary_range\": string_or_none(salary_range),\n    }\n\ndef is_india_job(job: dict[str, Any]) -> bool:\n    location = job.get(\"location\") or {}\n    country = str(location.get(\"country\") or \"\").strip().lower()\n    country_code = str(location.get(\"country_code\") or \"\").strip().upper()\n    return country in {\"india\", \"in\"} or \"india\" in country or country_code == \"IN\"\n\nLISTING_SELECTOR_TEXT = 'a[href]'\n\ndef _bs(html: str):\n    try:\n        from bs4 import BeautifulSoup\n    except Exception as exc:\n        raise RuntimeError(\"beautifulsoup4 is required to run SPA scrapers\") from exc\n    return BeautifulSoup(html, \"html.parser\")\n\ndef fetch_rendered_html(url: str, wait_selector: str | None = None) -> tuple[str, str]:\n    try:\n        from playwright.sync_api import sync_playwright\n    except Exception:\n        raise RuntimeError(\"playwright is required to run generated website scrapers\")\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=True)\n        try:\n            page = browser.new_page()\n            page.goto(url, wait_until=\"domcontentloaded\", timeout=30000)\n            page.wait_for_load_state(\"networkidle\", timeout=30000)\n            if wait_selector:\n                page.wait_for_selector(wait_selector, timeout=15000)\n            return page.content(), page.url\n        finally:\n            browser.close()\n\ndef fetch_detail_fields(url: str) -> tuple[Any, Any, Any, Any, Any]:\n    detail_html, detail_url = fetch_rendered_html(url, wait_selector='p[class~=\"filter-subhead\"][class~=\"cw-bw\"]')\n    detail_soup = _bs(detail_html)\n    description_node = detail_soup.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n    date_node = detail_soup.select_one('span[class~=\"search-date-type\"]') if 'span[class~=\"search-date-type\"]' else None\n    employment_node = detail_soup.select_one('div[class~=\"cw-filter-joblist-right\"]') if 'div[class~=\"cw-filter-joblist-right\"]' else None\n    work_type_node = detail_soup.select_one(None) if None else None\n    salary_node = detail_soup.select_one(None) if None else None\n    return (\n        description_node.get_text(\" \", strip=True) if description_node else None,\n        date_node.get_text(\" \", strip=True) if date_node else None,\n        employment_node.get_text(\" \", strip=True) if employment_node else None,\n        work_type_node.get_text(\" \", strip=True) if work_type_node else None,\n        salary_node.get_text(\" \", strip=True) if salary_node else None,\n    )\n\ndef absolute_url(base: str, href: str | None) -> str | None:\n    if not href:\n        return None\n    if href.startswith(\"http://\") or href.startswith(\"https://\"):\n        return href\n    from urllib.parse import urljoin\n    return urljoin(base, href)\n\ndef set_query_param(url: str, key: str, value: Any) -> str:\n    from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse\n    parsed = urlparse(url)\n    query = dict(parse_qsl(parsed.query, keep_blank_values=True))\n    query[key] = str(value)\n    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, urlencode(query), parsed.fragment))\n\ndef find_next_url(soup: Any, current_url: str) -> str | None:\n    next_selector = PAGINATION.get(\"next_link_selector\")\n    if next_selector:\n        next_node = soup.select_one(str(next_selector))\n        if next_node and getattr(next_node, \"get\", None):\n            return absolute_url(current_url, next_node.get(\"href\"))\n    return None\n\ndef extract_jobs_from_page(html: str, current_url: str, page_index: int):\n    soup = _bs(html)\n    items = soup.select('a[href]')\n    if not items and page_index == 0:\n        raise RuntimeError(\n            f\"items_selector {LISTING_SELECTOR_TEXT!r} matched 0 elements on {current_url}. \"\n            \"The investigation-provided selector does not match the rendered page \"\n            \"(possible causes: page needs longer JS wait, selector is stale, or Playwright wasn't available so we fell back to raw HTML).\"\n        )\n    for item in items:\n        title_node = item.select_one('a') if 'a' else None\n        url_node = item.select_one('a[href]') if 'a[href]' else None\n        location_node = item.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n        description_node = item.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n        date_node = item.select_one('span[class~=\"search-date-type\"]') if 'span[class~=\"search-date-type\"]' else None\n        employment_node = item.select_one('div[class~=\"cw-filter-joblist-right\"]') if 'div[class~=\"cw-filter-joblist-right\"]' else None\n        work_type_node = item.select_one(None) if None else None\n        salary_node = item.select_one(None) if None else None\n        title = pick_first(title_node.get_text(\" \", strip=True) if title_node else None)\n        link = None\n        if url_node and getattr(url_node, \"get\", None):\n            link = url_node.get(\"href\")\n        apply_url = absolute_url(current_url, link) or current_url\n        location_text = location_node.get_text(\" \", strip=True) if location_node else None\n        location = parse_location(location_text)\n        description_text = description_node.get_text(\" \", strip=True) if description_node else None\n        date_text = date_node.get_text(\" \", strip=True) if date_node else None\n        employment_text = employment_node.get_text(\" \", strip=True) if employment_node else None\n        work_type_text = work_type_node.get_text(\" \", strip=True) if work_type_node else None\n        salary_text = salary_node.get_text(\" \", strip=True) if salary_node else None\n        if apply_url and (description_text is None or date_text is None or employment_text is None or work_type_text is None or salary_text is None):\n            detail_description, detail_date, detail_employment, detail_work_type, detail_salary = fetch_detail_fields(apply_url)\n            description_text = description_text or detail_description\n            date_text = date_text or detail_date\n            employment_text = employment_text or detail_employment\n            work_type_text = work_type_text or detail_work_type\n            salary_text = salary_text or detail_salary\n        job = make_job(\n            title=title,\n            job_id=apply_url,\n            location=location,\n            url=apply_url,\n            apply_url=apply_url,\n            date_posted=date_text,\n            date_posted_text=date_text,\n            job_description=description_text,\n            employment_type=employment_text,\n            work_type=work_type_text,\n            salary_range=salary_text,\n        )\n        if is_india_job(job):\n            yield job\n\ndef iter_jobs():\n    page_type = str(PAGINATION.get(\"type\") or \"single\")\n    param = str(PAGINATION.get(\"param\") or \"page\")\n    start = int(PAGINATION.get(\"start\") or 1)\n    step = int(PAGINATION.get(\"step\") or 1)\n    max_pages = int(PAGINATION.get(\"max_pages\") or 50)\n    single_page = page_type not in ('page', 'offset', 'next_link')\n    if single_page:\n        max_pages = 1\n    current_url = ENTRY_URL\n    for index in range(max_pages):\n        if page_type in ('page', 'offset'):\n            page_url = set_query_param(current_url, param, start + index * step)\n        else:\n            page_url = current_url\n        page_html, rendered_url = fetch_rendered_html(page_url, wait_selector='a[href]')\n        yielded_any = False\n        for item in extract_jobs_from_page(page_html, rendered_url, index):\n            yielded_any = True\n            yield item\n        if page_type == \"next_link\":\n            next_url = find_next_url(_bs(page_html), rendered_url)\n            if not next_url or next_url == current_url:\n                break\n            current_url = next_url\n            continue\n        if not yielded_any:\n            break\n        if single_page:\n            break\n\n\ndef main() -> int:\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--output\", default=DEFAULT_OUTPUT)\n    args = parser.parse_args()\n    output_path = Path(args.output)\n    if output_path.suffix.lower() != \".jsonl\":\n        output_path = output_path.with_suffix(\".jsonl\")\n    output_path.parent.mkdir(parents=True, exist_ok=True)\n    jobs = list(iter_jobs())\n    with output_path.open(\"w\", encoding=\"utf-8\") as fh:\n        for job in jobs:\n            if job and is_india_job(job):\n                fh.write(json.dumps(job, ensure_ascii=False) + \"\\n\")\n    print(json.dumps({\"output\": str(output_path), \"jobs\": len(jobs)}, ensure_ascii=False))\n    return 0\n\nif __name__ == \"__main__\":\n    raise SystemExit(main())\n\nExecution stdout: {\"output\": \"jobs.jsonl\", \"jobs\": 0}\n\nExecution traceback: \nVerification report: {\"execution_exit_code\": 0, \"stdout\": \"{\\\"output\\\": \\\"jobs.jsonl\\\", \\\"jobs\\\": 0}\\n\", \"stderr\": \"\", \"duration_seconds\": 109.17352652549744, \"validation\": {\"ok\": false, \"job_count\": 0, \"india_job_count\": 0, \"issues\": [{\"code\": \"too_few_jobs\", \"message\": \"Expected at least 1 jobs, found 0\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"no_india_jobs\", \"message\": \"No India jobs were found\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"investigation_mismatch\", \"message\": \"Investigation already observed jobs, but the generated scraper returned 0 jobs.\", \"severity\": \"error\", \"sample\": null}]}, \"investigation\": {\"jobs_found_during_investigation\": true, \"job_count_detected\": 2, \"job_titles\": [\"Senior Project Manager\", \"Product Management Intern\"], \"recommended_strategy\": \"beautifulsoup\"}}\nIssues: [{\"code\": \"too_few_jobs\", \"message\": \"Expected at least 1 jobs, found 0\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"no_india_jobs\", \"message\": \"No India jobs were found\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"investigation_mismatch\", \"message\": \"Investigation already observed jobs, but the generated scraper returned 0 jobs.\", \"severity\": \"error\", \"sample\": null}]\n"
+          }
+        ],
+        "temperature": null
+      },
+      "output": {
+        "response": "{\"strategy\":\"spa\",\"entry_url\":\"https://f22labs.zohorecruit.in/jobs/Careers\",\"output_path\":\"jobs.jsonl\",\"browser_required\":true,\"pagination\":{\"type\":\"link\",\"notes\":\"Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).\",\"text\":\"blog\",\"href\":\"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\",\"rel\":[\"noopener\",\"noreferrer\"]},\"listing\":{\"items_selector\":\"div[class~=\\\"cw-filter-joblist\\\"] a[href]\",\"title_selector\":\"a\",\"url_selector\":\"a[href]\",\"location_selector\":\"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\",\"date_posted_text_selector\":\"span[class~=\\\"search-date-type\\\"]\",\"employment_type_selector\":\"div[class~=\\\"cw-filter-joblist-right\\\"]\",\"json_items_path\":[[],[\"founders\",0],[\"brand\"],[\"mainEntityOfPage\",0]],\"notes\":\"Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.\",\"job_selector\":\"div[class~=\\\"cw-filter-joblist\\\"]\",\"listing_selector\":\"div[class~=\\\"cw-filter-joblist\\\"]\"},\"detail\":{\"url_path\":[\"url\"],\"description_path\":[\"description\"],\"detail_selector\":\"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\",\"notes\":\"Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.\",\"description_selector\":\"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"},\"filters\":{\"locations\":null,\"employment_types\":null,\"keywords\":null,\"posted_since\":null,\"notes\":\"No filter selectors or parameters provided in investigation payload; keep filters null.\"},\"notes\":\"Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs.\"}",
+        "raw_keys": [
+          "choices",
+          "created",
+          "id",
+          "model",
+          "object",
+          "service_tier",
+          "system_fingerprint",
+          "usage"
+        ]
+      },
+      "note": "LLM completion call"
+    },
+    {
+      "ts": "2026-07-10T07:30:48.798606+00:00",
+      "actor": "repair",
+      "action": "revise_plan",
+      "input": {
+        "issues": [
+          {
+            "code": "too_few_jobs",
+            "message": "Expected at least 1 jobs, found 0",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "no_india_jobs",
+            "message": "No India jobs were found",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "investigation_mismatch",
+            "message": "Investigation already observed jobs, but the generated scraper returned 0 jobs.",
+            "severity": "error",
+            "sample": null
+          }
+        ]
+      },
+      "output": {
+        "strategy": "spa",
+        "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+        "output_path": "jobs.jsonl",
+        "browser_required": true,
+        "pagination": {
+          "type": "link",
+          "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+          "text": "blog",
+          "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        "listing": {
+          "items_selector": "a[href]",
+          "title_selector": "a",
+          "url_selector": "a[href]",
+          "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+          "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+          "json_items_path": [
+            [],
+            [
+              "founders",
+              0
+            ],
+            [
+              "brand"
+            ],
+            [
+              "mainEntityOfPage",
+              0
+            ]
+          ],
+          "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+          "job_selector": "div[class~=\"cw-filter-joblist\"]",
+          "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+        },
+        "detail": {
+          "url_path": [
+            "url"
+          ],
+          "description_path": [
+            "description"
+          ],
+          "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+          "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+        },
+        "filters": {
+          "locations": null,
+          "employment_types": null,
+          "keywords": null,
+          "posted_since": null,
+          "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+        },
+        "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors]"
+      },
+      "note": "Repair iteration"
+    },
+    {
+      "ts": "2026-07-10T07:30:48.842297+00:00",
+      "actor": "code_generation",
+      "action": "render_script",
+      "input": {
+        "plan": {
+          "strategy": "spa",
+          "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+          "output_path": "jobs.jsonl",
+          "browser_required": true,
+          "pagination": {
+            "type": "link",
+            "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+            "text": "blog",
+            "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+            "rel": [
+              "noopener",
+              "noreferrer"
+            ]
+          },
+          "listing": {
+            "items_selector": "a[href]",
+            "title_selector": "a",
+            "url_selector": "a[href]",
+            "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+            "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+            "json_items_path": [
+              [],
+              [
+                "founders",
+                0
+              ],
+              [
+                "brand"
+              ],
+              [
+                "mainEntityOfPage",
+                0
+              ]
+            ],
+            "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+            "job_selector": "div[class~=\"cw-filter-joblist\"]",
+            "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+          },
+          "detail": {
+            "url_path": [
+              "url"
+            ],
+            "description_path": [
+              "description"
+            ],
+            "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+            "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+          },
+          "filters": {
+            "locations": null,
+            "employment_types": null,
+            "keywords": null,
+            "posted_since": null,
+            "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+          },
+          "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors]"
+        }
+      },
+      "output": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py"
+      },
+      "note": "Re-rendered after repair"
+    },
+    {
+      "ts": "2026-07-10T07:32:36.129145+00:00",
+      "actor": "execution",
+      "action": "run_script",
+      "input": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py",
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "exit_code": 0,
+        "stdout": "{\"output\": \"jobs.jsonl\", \"jobs\": 0}\n",
+        "stderr": "",
+        "output_path": "jobs.jsonl",
+        "duration_seconds": 107.28684830665588
+      },
+      "note": "Re-executed repaired scraper"
+    },
+    {
+      "ts": "2026-07-10T07:32:36.129591+00:00",
+      "actor": "verification",
+      "action": "validate_output",
+      "input": {
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "ok": false,
+        "job_count": 0,
+        "india_job_count": 0,
+        "issues": [
+          {
+            "code": "too_few_jobs",
+            "message": "Expected at least 1 jobs, found 0",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "no_india_jobs",
+            "message": "No India jobs were found",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "investigation_mismatch",
+            "message": "Investigation already observed jobs, but the generated scraper returned 0 jobs.",
+            "severity": "error",
+            "sample": null
+          }
+        ]
+      },
+      "note": "Validated repaired output"
+    },
+    {
+      "ts": "2026-07-10T07:32:45.510955+00:00",
+      "actor": "llm",
+      "action": "chat",
+      "input": {
+        "provider": "openai",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "model": "gpt-5-mini",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return strict JSON only."
+          },
+          {
+            "role": "user",
+            "content": "The generated job scraper failed execution or validation. Produce a corrected strict JSON scrape plan.\nUse the original investigation output, the current plan, the generated scraper, the traceback, and the validation report to make targeted fixes.\nDo not guess new selectors. Modify only the failing parts.\nKeep the output schema the same. No regex. Structural extraction only.\nDomain: f22labs.com\nInvestigation: {\"source_type\": \"spa\", \"careers_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"platform\": \"zoho_recruit\", \"api_url\": null, \"jobs_found_during_investigation\": true, \"job_count_detected\": 2, \"job_titles\": [\"Senior Project Manager\", \"Product Management Intern\"], \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"recommended_strategy\": \"beautifulsoup\", \"json_paths\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]], \"selectors\": {\"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"description_selector\": null, \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"work_type_selector\": null, \"salary_range_selector\": null}, \"detail\": {\"description_path\": [\"description\"]}, \"pagination\": {\"type\": \"link\", \"page_param\": null}}, \"pagination\": {\"type\": \"link\", \"text\": \"blog\", \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\", \"rel\": [\"noopener\", \"noreferrer\"]}, \"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"json_items_path\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]]}, \"detail\": {\"url_path\": [\"url\"], \"description_path\": [\"description\"]}}\nCurrent plan: {\"strategy\": \"spa\", \"entry_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"output_path\": \"jobs.jsonl\", \"browser_required\": true, \"pagination\": {\"type\": \"link\", \"notes\": \"Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).\", \"text\": \"blog\", \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\", \"rel\": [\"noopener\", \"noreferrer\"]}, \"listing\": {\"items_selector\": \"a[href]\", \"title_selector\": \"a\", \"url_selector\": \"a[href]\", \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\", \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\", \"json_items_path\": [[], [\"founders\", 0], [\"brand\"], [\"mainEntityOfPage\", 0]], \"notes\": \"Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.\", \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\", \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\"}, \"detail\": {\"url_path\": [\"url\"], \"description_path\": [\"description\"], \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\", \"notes\": \"Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.\", \"description_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"}, \"filters\": {\"locations\": null, \"employment_types\": null, \"keywords\": null, \"posted_since\": null, \"notes\": \"No filter selectors or parameters provided in investigation payload; keep filters null.\"}, \"notes\": \"Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors]\"}\nGenerated scraper: #!/usr/bin/env python3\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport sys\nfrom datetime import datetime\nfrom pathlib import Path\nfrom typing import Any\n\nimport requests\n\nENTRY_URL = 'https://f22labs.zohorecruit.in/jobs/Careers'\nDEFAULT_OUTPUT = 'jobs.jsonl'\nPAGINATION = {'type': 'link', 'notes': 'Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).', 'text': 'blog', 'href': 'https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1', 'rel': ['noopener', 'noreferrer']}\nLISTING = {'items_selector': 'a[href]', 'title_selector': 'a', 'url_selector': 'a[href]', 'location_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]', 'date_posted_text_selector': 'span[class~=\"search-date-type\"]', 'employment_type_selector': 'div[class~=\"cw-filter-joblist-right\"]', 'json_items_path': [[], ['founders', 0], ['brand'], ['mainEntityOfPage', 0]], 'notes': 'Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.', 'job_selector': 'div[class~=\"cw-filter-joblist\"]', 'listing_selector': 'div[class~=\"cw-filter-joblist\"]'}\nDETAIL = {'url_path': ['url'], 'description_path': ['description'], 'detail_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]', 'notes': 'Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.', 'description_selector': 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]'}\nFILTERS = {'notes': 'No filter selectors or parameters provided in investigation payload; keep filters null.'}\n\ndef read_json_path(value: Any, path: list[Any]) -> Any:\n    if not path:\n        return None\n    current = value\n    for part in path:\n        if current is None:\n            return None\n        if isinstance(part, int):\n            if not isinstance(current, list) or part >= len(current):\n                return None\n            current = current[part]\n        else:\n            if not isinstance(current, dict):\n                return None\n            current = current.get(part)\n    return current\n\ndef string_or_none(value: Any) -> str | None:\n    if value is None:\n        return None\n    text = str(value).strip()\n    return text or None\n\ndef normalize_text(value: Any) -> str | None:\n    if value is None:\n        return None\n    text = \" \".join(str(value).split())\n    return text or None\n\ndef parse_date_value(value: Any) -> str | None:\n    if value is None:\n        return None\n    if isinstance(value, datetime):\n        return value.date().isoformat()\n    text = normalize_text(value)\n    if not text:\n        return None\n    for fmt in (\"%Y-%m-%d\", \"%m/%d/%Y\", \"%d/%m/%Y\", \"%m-%d-%Y\", \"%d-%m-%Y\", \"%b %d, %Y\", \"%B %d, %Y\"):\n        try:\n            return datetime.strptime(text, fmt).date().isoformat()\n        except ValueError:\n            continue\n    try:\n        return datetime.fromisoformat(text).date().isoformat()\n    except ValueError:\n        return text\n\ndef parse_location(text: Any, city: Any = None, state: Any = None, country: Any = None, country_code: Any = None) -> dict[str, Any]:\n    location = {\n        \"city\": normalize_text(city),\n        \"state\": normalize_text(state),\n        \"country\": normalize_text(country),\n        \"country_code\": normalize_text(country_code),\n    }\n    if text and not location[\"country\"]:\n        parts = [part.strip() for part in str(text).split(\",\") if part.strip()]\n        if len(parts) >= 1 and not location[\"city\"]:\n            location[\"city\"] = parts[0]\n        if len(parts) >= 2 and not location[\"state\"]:\n            location[\"state\"] = parts[1]\n        if parts:\n            last = parts[-1].lower()\n            if \"india\" in last or last == \"in\" or last.startswith(\"india \"):\n                location[\"country\"] = \"India\"\n                location[\"country_code\"] = \"IN\"\n            elif not location[\"country\"]:\n                location[\"country\"] = parts[-1]\n    if not location[\"country\"]:\n        lowered_text = str(text or \"\").lower()\n        if \"india\" in lowered_text:\n            location[\"country\"] = \"India\"\n            location[\"country_code\"] = \"IN\"\n    if not location[\"country\"] and FILTERS.get(\"country\"):\n        location[\"country\"] = FILTERS.get(\"country\")\n    if not location[\"country_code\"] and FILTERS.get(\"country_code\"):\n        location[\"country_code\"] = FILTERS.get(\"country_code\")\n    return location\n\ndef pick_first(*values: Any) -> Any:\n    for value in values:\n        if value is None:\n            continue\n        if isinstance(value, str) and not value.strip():\n            continue\n        return value\n    return None\n\ndef make_job(\n    title: Any,\n    job_id: Any,\n    location: dict[str, Any],\n    url: Any,\n    apply_url: Any,\n    date_posted: Any = None,\n    date_posted_text: Any = None,\n    job_description: Any = None,\n    employment_type: Any = None,\n    work_type: Any = None,\n    salary_range: Any = None,\n) -> dict[str, Any]:\n    return {\n        \"title\": normalize_text(title),\n        \"job_id\": string_or_none(job_id),\n        \"location\": location,\n        \"url\": string_or_none(url),\n        \"apply_url\": string_or_none(apply_url),\n        \"date_posted\": parse_date_value(date_posted),\n        \"date_posted_text\": string_or_none(date_posted_text),\n        \"job_description\": normalize_text(job_description),\n        \"employment_type\": string_or_none(employment_type),\n        \"work_type\": string_or_none(work_type),\n        \"salary_range\": string_or_none(salary_range),\n    }\n\ndef is_india_job(job: dict[str, Any]) -> bool:\n    location = job.get(\"location\") or {}\n    country = str(location.get(\"country\") or \"\").strip().lower()\n    country_code = str(location.get(\"country_code\") or \"\").strip().upper()\n    return country in {\"india\", \"in\"} or \"india\" in country or country_code == \"IN\"\n\nLISTING_SELECTOR_TEXT = 'a[href]'\n\ndef _bs(html: str):\n    try:\n        from bs4 import BeautifulSoup\n    except Exception as exc:\n        raise RuntimeError(\"beautifulsoup4 is required to run SPA scrapers\") from exc\n    return BeautifulSoup(html, \"html.parser\")\n\ndef fetch_rendered_html(url: str, wait_selector: str | None = None) -> tuple[str, str]:\n    try:\n        from playwright.sync_api import sync_playwright\n    except Exception:\n        raise RuntimeError(\"playwright is required to run generated website scrapers\")\n    with sync_playwright() as p:\n        browser = p.chromium.launch(headless=True)\n        try:\n            page = browser.new_page()\n            page.goto(url, wait_until=\"domcontentloaded\", timeout=30000)\n            page.wait_for_load_state(\"networkidle\", timeout=30000)\n            if wait_selector:\n                page.wait_for_selector(wait_selector, timeout=15000)\n            return page.content(), page.url\n        finally:\n            browser.close()\n\ndef fetch_detail_fields(url: str) -> tuple[Any, Any, Any, Any, Any]:\n    detail_html, detail_url = fetch_rendered_html(url, wait_selector='p[class~=\"filter-subhead\"][class~=\"cw-bw\"]')\n    detail_soup = _bs(detail_html)\n    description_node = detail_soup.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n    date_node = detail_soup.select_one('span[class~=\"search-date-type\"]') if 'span[class~=\"search-date-type\"]' else None\n    employment_node = detail_soup.select_one('div[class~=\"cw-filter-joblist-right\"]') if 'div[class~=\"cw-filter-joblist-right\"]' else None\n    work_type_node = detail_soup.select_one(None) if None else None\n    salary_node = detail_soup.select_one(None) if None else None\n    return (\n        description_node.get_text(\" \", strip=True) if description_node else None,\n        date_node.get_text(\" \", strip=True) if date_node else None,\n        employment_node.get_text(\" \", strip=True) if employment_node else None,\n        work_type_node.get_text(\" \", strip=True) if work_type_node else None,\n        salary_node.get_text(\" \", strip=True) if salary_node else None,\n    )\n\ndef absolute_url(base: str, href: str | None) -> str | None:\n    if not href:\n        return None\n    if href.startswith(\"http://\") or href.startswith(\"https://\"):\n        return href\n    from urllib.parse import urljoin\n    return urljoin(base, href)\n\ndef set_query_param(url: str, key: str, value: Any) -> str:\n    from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse\n    parsed = urlparse(url)\n    query = dict(parse_qsl(parsed.query, keep_blank_values=True))\n    query[key] = str(value)\n    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, urlencode(query), parsed.fragment))\n\ndef find_next_url(soup: Any, current_url: str) -> str | None:\n    next_selector = PAGINATION.get(\"next_link_selector\")\n    if next_selector:\n        next_node = soup.select_one(str(next_selector))\n        if next_node and getattr(next_node, \"get\", None):\n            return absolute_url(current_url, next_node.get(\"href\"))\n    return None\n\ndef extract_jobs_from_page(html: str, current_url: str, page_index: int):\n    soup = _bs(html)\n    items = soup.select('a[href]')\n    if not items and page_index == 0:\n        raise RuntimeError(\n            f\"items_selector {LISTING_SELECTOR_TEXT!r} matched 0 elements on {current_url}. \"\n            \"The investigation-provided selector does not match the rendered page \"\n            \"(possible causes: page needs longer JS wait, selector is stale, or Playwright wasn't available so we fell back to raw HTML).\"\n        )\n    for item in items:\n        title_node = item.select_one('a') if 'a' else None\n        url_node = item.select_one('a[href]') if 'a[href]' else None\n        location_node = item.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n        description_node = item.select_one('p[class~=\"filter-subhead\"][class~=\"cw-bw\"]') if 'p[class~=\"filter-subhead\"][class~=\"cw-bw\"]' else None\n        date_node = item.select_one('span[class~=\"search-date-type\"]') if 'span[class~=\"search-date-type\"]' else None\n        employment_node = item.select_one('div[class~=\"cw-filter-joblist-right\"]') if 'div[class~=\"cw-filter-joblist-right\"]' else None\n        work_type_node = item.select_one(None) if None else None\n        salary_node = item.select_one(None) if None else None\n        title = pick_first(title_node.get_text(\" \", strip=True) if title_node else None)\n        link = None\n        if url_node and getattr(url_node, \"get\", None):\n            link = url_node.get(\"href\")\n        apply_url = absolute_url(current_url, link) or current_url\n        location_text = location_node.get_text(\" \", strip=True) if location_node else None\n        location = parse_location(location_text)\n        description_text = description_node.get_text(\" \", strip=True) if description_node else None\n        date_text = date_node.get_text(\" \", strip=True) if date_node else None\n        employment_text = employment_node.get_text(\" \", strip=True) if employment_node else None\n        work_type_text = work_type_node.get_text(\" \", strip=True) if work_type_node else None\n        salary_text = salary_node.get_text(\" \", strip=True) if salary_node else None\n        if apply_url and (description_text is None or date_text is None or employment_text is None or work_type_text is None or salary_text is None):\n            detail_description, detail_date, detail_employment, detail_work_type, detail_salary = fetch_detail_fields(apply_url)\n            description_text = description_text or detail_description\n            date_text = date_text or detail_date\n            employment_text = employment_text or detail_employment\n            work_type_text = work_type_text or detail_work_type\n            salary_text = salary_text or detail_salary\n        job = make_job(\n            title=title,\n            job_id=apply_url,\n            location=location,\n            url=apply_url,\n            apply_url=apply_url,\n            date_posted=date_text,\n            date_posted_text=date_text,\n            job_description=description_text,\n            employment_type=employment_text,\n            work_type=work_type_text,\n            salary_range=salary_text,\n        )\n        if is_india_job(job):\n            yield job\n\ndef iter_jobs():\n    page_type = str(PAGINATION.get(\"type\") or \"single\")\n    param = str(PAGINATION.get(\"param\") or \"page\")\n    start = int(PAGINATION.get(\"start\") or 1)\n    step = int(PAGINATION.get(\"step\") or 1)\n    max_pages = int(PAGINATION.get(\"max_pages\") or 50)\n    single_page = page_type not in ('page', 'offset', 'next_link')\n    if single_page:\n        max_pages = 1\n    current_url = ENTRY_URL\n    for index in range(max_pages):\n        if page_type in ('page', 'offset'):\n            page_url = set_query_param(current_url, param, start + index * step)\n        else:\n            page_url = current_url\n        page_html, rendered_url = fetch_rendered_html(page_url, wait_selector='a[href]')\n        yielded_any = False\n        for item in extract_jobs_from_page(page_html, rendered_url, index):\n            yielded_any = True\n            yield item\n        if page_type == \"next_link\":\n            next_url = find_next_url(_bs(page_html), rendered_url)\n            if not next_url or next_url == current_url:\n                break\n            current_url = next_url\n            continue\n        if not yielded_any:\n            break\n        if single_page:\n            break\n\n\ndef main() -> int:\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--output\", default=DEFAULT_OUTPUT)\n    args = parser.parse_args()\n    output_path = Path(args.output)\n    if output_path.suffix.lower() != \".jsonl\":\n        output_path = output_path.with_suffix(\".jsonl\")\n    output_path.parent.mkdir(parents=True, exist_ok=True)\n    jobs = list(iter_jobs())\n    with output_path.open(\"w\", encoding=\"utf-8\") as fh:\n        for job in jobs:\n            if job and is_india_job(job):\n                fh.write(json.dumps(job, ensure_ascii=False) + \"\\n\")\n    print(json.dumps({\"output\": str(output_path), \"jobs\": len(jobs)}, ensure_ascii=False))\n    return 0\n\nif __name__ == \"__main__\":\n    raise SystemExit(main())\n\nExecution stdout: {\"output\": \"jobs.jsonl\", \"jobs\": 0}\n\nExecution traceback: \nVerification report: {\"execution_exit_code\": 0, \"stdout\": \"{\\\"output\\\": \\\"jobs.jsonl\\\", \\\"jobs\\\": 0}\\n\", \"stderr\": \"\", \"duration_seconds\": 107.28684830665588, \"validation\": {\"ok\": false, \"job_count\": 0, \"india_job_count\": 0, \"issues\": [{\"code\": \"too_few_jobs\", \"message\": \"Expected at least 1 jobs, found 0\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"no_india_jobs\", \"message\": \"No India jobs were found\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"investigation_mismatch\", \"message\": \"Investigation already observed jobs, but the generated scraper returned 0 jobs.\", \"severity\": \"error\", \"sample\": null}]}, \"investigation\": {\"jobs_found_during_investigation\": true, \"job_count_detected\": 2, \"job_titles\": [\"Senior Project Manager\", \"Product Management Intern\"], \"recommended_strategy\": \"beautifulsoup\"}}\nIssues: [{\"code\": \"too_few_jobs\", \"message\": \"Expected at least 1 jobs, found 0\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"no_india_jobs\", \"message\": \"No India jobs were found\", \"severity\": \"error\", \"sample\": null}, {\"code\": \"investigation_mismatch\", \"message\": \"Investigation already observed jobs, but the generated scraper returned 0 jobs.\", \"severity\": \"error\", \"sample\": null}]\n"
+          }
+        ],
+        "temperature": null
+      },
+      "output": {
+        "response": "{\n  \"strategy\": \"spa\",\n  \"entry_url\": \"https://f22labs.zohorecruit.in/jobs/Careers\",\n  \"output_path\": \"jobs.jsonl\",\n  \"browser_required\": true,\n  \"pagination\": {\n    \"type\": \"link\",\n    \"notes\": \"Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).\",\n    \"text\": \"blog\",\n    \"href\": \"https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1\",\n    \"rel\": [\n      \"noopener\",\n      \"noreferrer\"\n    ]\n  },\n  \"listing\": {\n    \"items_selector\": \"div[class~=\\\"cw-filter-joblist\\\"] a[href]\",\n    \"title_selector\": \"a\",\n    \"url_selector\": \"a[href]\",\n    \"location_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\",\n    \"date_posted_text_selector\": \"span[class~=\\\"search-date-type\\\"]\",\n    \"employment_type_selector\": \"div[class~=\\\"cw-filter-joblist-right\\\"]\",\n    \"json_items_path\": [\n      [],\n      [\n        \"founders\",\n        0\n      ],\n      [\n        \"brand\"\n      ],\n      [\n        \"mainEntityOfPage\",\n        0\n      ]\n    ],\n    \"notes\": \"Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.\",\n    \"job_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\",\n    \"listing_selector\": \"div[class~=\\\"cw-filter-joblist\\\"]\"\n  },\n  \"detail\": {\n    \"url_path\": [\n      \"url\"\n    ],\n    \"description_path\": [\n      \"description\"\n    ],\n    \"detail_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\",\n    \"notes\": \"Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.\",\n    \"description_selector\": \"p[class~=\\\"filter-subhead\\\"][class~=\\\"cw-bw\\\"]\"\n  },\n  \"filters\": {\n    \"locations\": null,\n    \"employment_types\": null,\n    \"keywords\": null,\n    \"posted_since\": null,\n    \"notes\": \"No filter selectors or parameters provided in investigation payload; keep filters null.\"\n  },\n  \"notes\": \"Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors]\"\n}",
+        "raw_keys": [
+          "choices",
+          "created",
+          "id",
+          "model",
+          "object",
+          "service_tier",
+          "system_fingerprint",
+          "usage"
+        ]
+      },
+      "note": "LLM completion call"
+    },
+    {
+      "ts": "2026-07-10T07:32:45.510955+00:00",
+      "actor": "repair",
+      "action": "revise_plan",
+      "input": {
+        "issues": [
+          {
+            "code": "too_few_jobs",
+            "message": "Expected at least 1 jobs, found 0",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "no_india_jobs",
+            "message": "No India jobs were found",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "investigation_mismatch",
+            "message": "Investigation already observed jobs, but the generated scraper returned 0 jobs.",
+            "severity": "error",
+            "sample": null
+          }
+        ]
+      },
+      "output": {
+        "strategy": "spa",
+        "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+        "output_path": "jobs.jsonl",
+        "browser_required": true,
+        "pagination": {
+          "type": "link",
+          "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+          "text": "blog",
+          "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        "listing": {
+          "items_selector": "a[href]",
+          "title_selector": "a",
+          "url_selector": "a[href]",
+          "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+          "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+          "json_items_path": [
+            [],
+            [
+              "founders",
+              0
+            ],
+            [
+              "brand"
+            ],
+            [
+              "mainEntityOfPage",
+              0
+            ]
+          ],
+          "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+          "job_selector": "div[class~=\"cw-filter-joblist\"]",
+          "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+        },
+        "detail": {
+          "url_path": [
+            "url"
+          ],
+          "description_path": [
+            "description"
+          ],
+          "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+          "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+          "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+        },
+        "filters": {
+          "locations": null,
+          "employment_types": null,
+          "keywords": null,
+          "posted_since": null,
+          "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+        },
+        "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors] [repair preserved investigation selectors]"
+      },
+      "note": "Repair iteration"
+    },
+    {
+      "ts": "2026-07-10T07:32:45.540570+00:00",
+      "actor": "code_generation",
+      "action": "render_script",
+      "input": {
+        "plan": {
+          "strategy": "spa",
+          "entry_url": "https://f22labs.zohorecruit.in/jobs/Careers",
+          "output_path": "jobs.jsonl",
+          "browser_required": true,
+          "pagination": {
+            "type": "link",
+            "notes": "Investigation pagination provided as external blog link; no SPA pagination selector was provided in payload, so pagination extraction is disabled (null).",
+            "text": "blog",
+            "href": "https://www.f22labs.com/blogs/?category=Headless%20Shopify&page=1",
+            "rel": [
+              "noopener",
+              "noreferrer"
+            ]
+          },
+          "listing": {
+            "items_selector": "a[href]",
+            "title_selector": "a",
+            "url_selector": "a[href]",
+            "location_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "date_posted_text_selector": "span[class~=\"search-date-type\"]",
+            "employment_type_selector": "div[class~=\"cw-filter-joblist-right\"]",
+            "json_items_path": [
+              [],
+              [
+                "founders",
+                0
+              ],
+              [
+                "brand"
+              ],
+              [
+                "mainEntityOfPage",
+                0
+              ]
+            ],
+            "notes": "Use SPA rendering to load the careers page. Prefer structural extraction using provided CSS selectors and json_items_path. Do not infer additional selectors or URLs.",
+            "job_selector": "div[class~=\"cw-filter-joblist\"]",
+            "listing_selector": "div[class~=\"cw-filter-joblist\"]"
+          },
+          "detail": {
+            "url_path": [
+              "url"
+            ],
+            "description_path": [
+              "description"
+            ],
+            "detail_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]",
+            "notes": "Detail extraction should use the provided JSON paths when available. For HTML detail fallback, use the provided CSS detail_selector. No regex or inferred selectors.",
+            "description_selector": "p[class~=\"filter-subhead\"][class~=\"cw-bw\"]"
+          },
+          "filters": {
+            "locations": null,
+            "employment_types": null,
+            "keywords": null,
+            "posted_since": null,
+            "notes": "No filter selectors or parameters provided in investigation payload; keep filters null."
+          },
+          "notes": "Investigation payload is the source of truth. Strategy set to SPA per payload. Structural extraction only: CSS selectors for HTML and JSON paths for JSON data. Missing fields set to null. Do not infer new selectors or URLs. [repair preserved investigation selectors] [repair preserved investigation selectors]"
+        }
+      },
+      "output": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py"
+      },
+      "note": "Re-rendered after repair"
+    },
+    {
+      "ts": "2026-07-10T07:34:43.878910+00:00",
+      "actor": "execution",
+      "action": "run_script",
+      "input": {
+        "script_path": "C:\\Users\\varsh\\scrap agent\\generated\\f22labs_com\\scraper.py",
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "exit_code": 0,
+        "stdout": "{\"output\": \"jobs.jsonl\", \"jobs\": 0}\n",
+        "stderr": "",
+        "output_path": "jobs.jsonl",
+        "duration_seconds": 118.33514976501465
+      },
+      "note": "Re-executed repaired scraper"
+    },
+    {
+      "ts": "2026-07-10T07:34:43.878910+00:00",
+      "actor": "verification",
+      "action": "validate_output",
+      "input": {
+        "output_path": "jobs.jsonl"
+      },
+      "output": {
+        "ok": false,
+        "job_count": 0,
+        "india_job_count": 0,
+        "issues": [
+          {
+            "code": "too_few_jobs",
+            "message": "Expected at least 1 jobs, found 0",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "no_india_jobs",
+            "message": "No India jobs were found",
+            "severity": "error",
+            "sample": null
+          },
+          {
+            "code": "investigation_mismatch",
+            "message": "Investigation already observed jobs, but the generated scraper returned 0 jobs.",
+            "severity": "error",
+            "sample": null
+          }
+        ]
+      },
+      "note": "Validated repaired output"
+    },
+    {
+      "ts": "2026-07-10T07:34:48.379441+00:00",
+      "actor": "llm",
+      "action": "chat",
+      "input": {
+        "provider": "gemini",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "model": "gemini-2.5-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "Return a short markdown summary."
+          },
+          {
+            "role": "user",
+            "content": "Summarize this agent trace for a developer. Keep it concise, factual, and structured.\nInclude the main decisions, tools used, and any repair loop outcomes.\nTrace events: [{\"ts\": \"2026-07-10T07:27:58.801139+00:00\", \"actor\": \"system\", \"action\": \"startup\", \"input\": {\"domain\": \"f22labs.com\"}, \"output\": {\"env_file_loaded\": true, \"discovery_model\": \"gemini-2.5-flash\", \"investigation_model\": \"gemini-2.5-flash\", \"planning_model\": \"gpt-5-mini\", \"codegen_model\": \"gpt-5-mini\", \"repair_model\": \"gpt-5-mini\", \"trace_model\": \"gemini-2.5-flash\", \"search_provider\": \"serper\", \"firecrawl_enabled\": true}, \"note\": \"Resolved runtime configuration\"}, {\"ts\": \"2026-07-10T07:28:01.227308+00:00\", \"actor\": \"firecrawl\", \"action\": \"fetch\", \"input\": {\"mode\": \"scrape\", \"url\": \"https://f22labs.com/careers\"}, \"output\": {\"raw_keys\": [\"data\", \"success\"], \"sample\": {\"success\": true, \"data\": {\"markdown\": \"### Filters\\n\\n### Smart Filters\\n\\n### Job Type\\n\\nFull time (2)\\n\\nApply Filters\\n\\n# Join us\\n\\n## Current Openings\\n\\n\\u00d7\\n\\nFilters\\n\\nWhat\\n\\nWhere\\n\\n{{getI18n('crm.social.tooltip.search')}}  Search\\n\\nLoading...\\n\\n### [Senior Project Manager](https://f22labs.zohorecruit.in/jobs/Careers/65449000002129032/Senior-Project-Manager?source=CareerSite)\\n\\nChennai, Tamil Nadu, India  4-5 years\\n\\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\\n\\nFull time07/31/2024\\n\\n### [Product Management Intern](https://f22labs.zohorecruit.in/jobs/Careers/65449000000416161/Product-Management-Intern?source=CareerSite) Position filled\\n\\nChennai, Tamil Nadu, India  0-1 year\\n\\nWho we are: F22 Labs was started in 2014 by Murtuza and Hari, 2 childhood friends who always dreamt of starting a business of their own. After working...\\n\\nFull time07/27/2024\\n\\n{{criteriaIndex}}\\n\\n{{field}}{{captialize(condition)}}\\n\\n()\\n\\n{{cxPropHelpText}}\\n\\n{{cxPropField.consent\\\\_details.description}}\\n\\n# {{record.Posting\\\\_Title}}\\n\\n### [{{record.Posting\\\\_Title}}](https://f22labs.zohorecruit.in/jobs/Careers)\\n\\n### [{{record.Posting\\\\_Title}}](https://f22labs.zohorecruit.in/jobs/Careers)\\n\\n{{candidate.Email}}\\n\\n{{topMessage}}\\n\\nJob Details\\n\\n{{topMessage}}\\n\\n[previous](about:blank#) [next](about:blank#)\\n\\n### [{{title}}](about:blank\\\\#)\\n\\n{{score}}%\\n\\n### Job Description\\n\\n{{unescape(sanitizeHTML(descriptionHTML))}}\\n\\n{{message}}\\n\\nStep {{curStepInMandatorySecPrompt}}/{{totalNumOfStepsInMandatorySecPrompt}}\\n\\nFor privacy and security purposes, please go through the following points and provide consent.\\n\\nAcceptDecline\\n\\n{{botName}}\\n\\n{{getI18n(\\\"zr.zia.sb.consent.msg1\\\")}}\", \"metadata\": {\"ogTitle\": \"Jobs at F22Labs\", \"twitter:card\": \"summary_large_image\", \"theme-color\": \"#6875E2\", \"twitter:title\": \"Jobs at F22Labs\", \"og:image\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg\", \"keywords\": \"Everyone at F22Labs is free to explore and work the way you want. Come join us!\", \"og:image:type\": \"img/png\", \"og:image:secure_url\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg\", \"title\": \"Jobs at F22Labs\", \"twitter:site\": \"www.f22labs.com\", \"og:locale\": \"en_US\", \"twitter:image:alt\": \"Jobs at F22Labs\", \"msapplication-TileColor\": \"#6875E2\", \"og:title\": \"Jobs at F22Labs\", \"ogLocale\": \"en_US\", \"description\": \"Everyone at F22Labs is free to explore and work the way you want. Come join us!\", \"ogImage\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg\", \"ogUrl\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"og:image:width\": \"1200\", \"language\": [\"en\", \"en_US\"], \"og:site_name\": \"F22Labs\", \"msapplication-TileImage\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg\", \"ogSiteName\": \"F22Labs\", \"viewport\": \"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\", \"ogDescription\": \"Everyone at F22Labs is free to explore and work the way you want. Come join us!\", \"og:image:alt\": \"F22Labs\", \"googlebot\": \"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\", \"robots\": \"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1\", \"twitter:description\": \"Everyone at F22Labs is free to explore and work the way you want. Come join us!\", \"og:url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"twitter:image\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=meta&page_id=65449000000346512&file_name=company_logo.jpg\", \"og:type\": \"website\", \"og:image:height\": \"630\", \"og:description\": \"Everyone at F22Labs is free to explore and work the way you want. Come join us!\", \"favicon\": \"https://f22labs.zohorecruit.in/recruit/viewCareerImage.do?type=favicon&page_id=65449000000346512&file_name=F22logo__1_.png\", \"scrapeId\": \"019f4aed-1a8f-776b-af6b-53c4b6f5f4b4\", \"sourceURL\": \"https://f22labs.com/careers\", \"url\": \"https://f22labs.zohorecruit.in/jobs/Careers\", \"statusCode\": 200, \"contentType\": \"text/html;charset=UTF-8\", \"proxyUsed\": \"basic\", \"cacheState\": \"hit\", \"cachedAt\": \"2026-07-10T05:48:31.551Z\", \"creditsUsed\": 1, \"concurrencyLimited\": false}, \"html\": \"<!DOCTYPE html><html lang=\\\"en\\\"><body class=\\\"cw-spmenu-push font-lato\\\"><div id=\\\"lyteAssetsDiv\\\"></div><div id=\\\"ajax_load_tab\\\" class=\\\"slider_loading\\\" data-dispcount=\\\"0\\\" style=\\\"display: none;\\\"><div class=\\\"loading_line\\\" data-zcqa=\\\"loading_line\\\"></div><div class=\\\"loading_break dot1\\\"></div><div class=\\\"loading_break dot2\\\"></div><div class=\\\"loading_break dot3\\\"></div><div class=\\\"loading_break dot4\\\"></div></div><div id=\\\"career-website-main\\\" class=\\\"cw-live\\\" data-candidateloginsession=\\\"\\\"><career-website page_id=\\\"65449000000346512\\\" lyte-rendered=\\\"\\\"> <section class=\\\"cw-prw-wrapper cw-preview-wrapper font-lato\\\"> <div class=\\\"edit-layout-block posR\\\"> <section class=\\\"cw-layout-section-2 cw-over-tooltip\\\"> <section class=\\\"cw-section cw-hero-banner  cw-container-fluid cw-layout-section-2 home-bg\\\" style=\\\"background-image: url('/recruit/viewCareerImage.do?page_id=65449000000346512&amp;type=background&amp;file_name=bg01.png');background-position-y:0px;\\\" id=\\\"cw-header-section\\\"> <div class=\\\"header-img-overlay\\\" style=\\\"background-color:#171b27;opacity:0.70\\\"></div>  <career-website-header-layout2 type=\\\"publish\\\" id=\\\"65449000000346512\\\" lyte-rendered=\\\"\\\">  </career-website-header-layout2> </section> <section class=\\\"clearfix cw-job-listing posR cw-section-space \\\" id=\\\"Jobs\\\">    <div class=\\\"cw-section-inner\\\" id=\\\"website_block_jobs\\\"> <career-website-job-layout3 group_item_selected=\\\"All\\\" type=\\\"publish\\\" remote_job_selected=\\\"false\\\" lyte-rendered=\\\"\\\">  <div class=\\\"cw-joblisting-wrapper cw-job-layout3 \\\"> <div class=\\\"cw-search-overlay\\\"></div>  <div class=\\\"posR cw-joblisting-filter\\\"> <div class=\\\"cw-filter-search\\\"> <a class=\\\"pop-close-popup toggle-filters disN\\\" click=\\\"career-website-job-layout3 => hideSection()\\\"></a> <h3 class=\\\"cw-filter-heading\\\" style=\\\"color:#232933\\\">Filters</h3> <div class=\\\"editable row-space-8\\\"> <div class=\\\"cw-filter-box\\\"> <div class=\\\"cw-filter-section\\\"> <h3 style=\\\"color:#5c6575\\\">Smart Filters</h3>  </div>  <div class=\\\"cw-filter-section facet-filter\\\" data-field=\\\"{&quot;id&quot;:&quot;65449000000226872&quot;,&quot;module&quot;:[&quot;65449000000226548&quot;],&quot;custom_field&quot;:false,&quot;ui_type&quot;:2,&quot;api_name&quot;:&quot;Job_Type&quot;,&quot;field_label&quot;:&quot;Job Type&quot;,&quot;data_type&quot;:&quot;picklist&quot;,&quot;length&quot;:120,&quot;required&quot;:false,&quot;section&quot;:[&quot;1&quot;]}\\\"> <h3 style=\\\"color:#5c6575\\\">Job Type</h3>  <div class=\\\"cw-fillter-scroll-0 cw-fillter-scroll\\\">  <div class=\\\"crc-custom-cheackbox cnl-custom-0 checkbox-ind-0-0\\\" data-identifier=\\\"checkbox-ind-0-0\\\"> <lyte-checkbox lt-prop-autocomplete=\\\"false\\\" lt-prop-tooltip-config=\\\"{&quot;position&quot;:&quot;top&quot;,&quot;maxdisplaytime&quot;:15000}\\\" lt-prop-name=\\\"checkbox\\\" lt-prop-value=\\\"Full time\\\" lt-prop-label=\\\"Full time (2)\\\" keydown=\\\"lyte-checkbox => preventInputClick(event)\\\" keyup=\\\"lyte-checkbox => preventInputClick(event)\\\" random-id=\\\"lyte-checkbox-label-0\\\" lyte-rendered=\\\"\\\" data-tabindex=\\\"\\\">  <label class=\\\"lyteCheckbox lyteDefault\\\" mouseup=\\\"lyte-checkbox => mup(event)\\\" click=\\\"lyte-checkbox => prevent(event)\\\"> <input aria-labelledby=\\\"lyte-checkbox-label-0\\\" type=\\\"checkbox\\\" id=\\\"\\\" name=\\\"checkbox\\\" value=\\\"Full time\\\" tabindex=\\\"0\\\" data-tabindex=\\\"\\\" class=\\\"\\\" click=\\\"lyte-checkbox => checkBoxClicked(event)\\\" autocomplete=\\\"off\\\"> <span class=\\\"lyteCheckBoxDefault\\\"> <span class=\\\"\\\" aria-hidden=\\\"true\\\" id=\\\"lyte-checkbox-label-0\\\" lyte-label=\\\"\\\">  Full time (2)  </span> </span> </label> </lyte-checkbox> </div>  </div> </div>  </div> <div class=\\\"circle tl\\\"></div><div class=\\\"circle tr\\\"></div><div class=\\\"circle bl\\\"></div><div class=\\\"circle br\\\"></div> </div> <div class=\\\"cw-text-center\\\"><a style=\\\"background-color:#6875E2;border:1px solid #6875E2\\\" class=\\\"toggle-filters cw-apply-filters\\\" click=\\\"career-website-job-layout3 => applyFilters()\\\">Apply Filters</a></div> </div> </div>  <div class=\\\"cw-joblisting-results\\\"> <div class=\\\"cw-filter-results\\\"> <div class=\\\"cw-job-layout3-header\\\"> <h1 style=\\\"color:#232933\\\" data-zrqa=\\\"cw-job3-title\\\">Join us</h1> <h2 style=\\\"color:#5c6575\\\" data-zrqa=\\\"cw-job3-stitle\\\">Current Openings </h2> </div> <div class=\\\"clearfix cw-mobile-search vivify\\\"> <a class=\\\"form-search-dismiss disN\\\">\\u00d7</a> <div class=\\\"cw-search-fixed \\\"> <a class=\\\"cw-job-filter-btn form-filter-trigger\\\" click=\\\"career-website-job-layout3 => openFilter()\\\"><i class=\\\"fa fa-filter\\\"></i>Filters</a> <div class=\\\"cw-search-section clearfix\\\"> <div class=\\\"cw-search-section-search\\\"> <div class=\\\"cw-search-title-warp\\\"> <label style=\\\"color:#232933\\\">What</label> <lyte-input data-zrqa=\\\"cw-job3s\\\" class=\\\"cw-search-title lyteInput vertical lyteInputWithClearIcon\\\" lt-prop-type=\\\"text\\\" lt-prop-placeholder=\\\"Job title or skill\\\" lt-prop-close-icon=\\\"true\\\" keyup=\\\"career-website-job-layout3 => checkAndClear(event)\\\" lyte-rendered=\\\"\\\">   <div class=\\\"lyteField  \\\" style=\\\"\\\"> <input data-tabindex=\\\"0\\\" tabindex=\\\"0\\\" type=\\\"text\\\" value=\\\"\\\" id=\\\"\\\" class=\\\"\\\" maxlength=\\\"\\\" name=\\\"\\\" placeholder=\\\"Job title or skill\\\" autocomplete=\\\"off\\\" style=\\\"\\\" title=\\\"\\\" pattern=\\\".+\\\" focus=\\\"lyte-input => focusClass(event)\\\" blur=\\\"lyte-input => blurThrow\\\" input=\\\"lyte-input => input\\\">   <span role=\\\"button\\\" class=\\\"inputCloseIcon\\\" style=\\\"display: none;\\\" click=\\\"lyte-input => clsIcon(event)\\\" keydown=\\\"lyte-input => keyclick(event)\\\"></span>  </div>   </lyte-input> </div> <div class=\\\"cw-search-location-wrap\\\"> <label style=\\\"color:#232933\\\">Where</label> <lyte-input data-zrqa=\\\"cw-job3l\\\" class=\\\"cw-search-location lyteInput vertical lyteInputWithClearIcon\\\" lt-prop-type=\\\"text\\\" lt-prop-placeholder=\\\"City, State/Province or Country\\\" lt-prop-close-icon=\\\"true\\\" keyup=\\\"career-website-job-layout3 => checkAndClear(event)\\\" lyte-rendered=\\\"\\\">   <div class=\\\"lyteField  \\\" style=\\\"\\\"> <input data-tabindex=\\\"0\\\" tabindex=\\\"0\\\" type=\\\"text\\\" value=\\\"\\\" id=\\\"\\\" class=\\\"\\\" maxlength=\\\"\\\" name=\\\"\\\" placeholder=\\\"City, State/Province or Country\\\" autocomplete=\\\"off\\\" style=\\\"\\\" title=\\\"\\\" pattern=\\\".+\\\" focus=\\\"lyte-input => focusClass(event)\\\" blur=\\\"lyte-input => blurThrow\\\" input=\\\"lyte-input => input\\\">   <span role=\\\"button\\\" class=\\\"inputCloseIcon\\\" style=\\\"display: none;\\\" click=\\\"lyte-input => clsIcon(event)\\\" keydown=\\\"lyte-input => keyclick(event)\\\"></span>  </div>   </lyte-input> </div> <lyte-button data-zrqa=\\\"cw-job3-search\\\" lt-prop-appearance=\\\"primary\\\" lt-prop-background-color=\\\"#6875E2\\\" click=\\\"lyte-button => check(event) ; career-website-job-layout3 => searchJob()\\\" mousedown=\\\"lyte-button => check(event)\\\" final-style=\\\"background-color:#6875E2;border-color:#6875E2;color:white;\\\" final-class=\\\"lyte-button lyteBackgroundColorBtn\\\" lyte-rendered=\\\"\\\">  {{getI18"
+          }
+        ],
+        "temperature": 0.1
+      },
+      "output": {
+        "response": "This trace details the initial setup and a successful web scraping operation.\n\n**Main Decisions & Actions:**\n*   **Agent Startup**: The system initialized, loading runtime configuration.\n*   **Web Scraping**: Decided to fetch content from `https://f22labs.com/careers`.\n\n**Tools Used:**\n*   **Firecrawl**: Used to scrape the `f22labs.com/careers` page.\n*   **Models**: `gemini-2.5-flash` for discovery, investigation, and trace; `gpt-5-mini` for planning, codegen, and repair.\n*   **Search Provider**: Serper.\n\n**Repair Loop Outcomes:**\n*   No repair loops occurred in this trace.\n\n**Outcome:**\nThe Firecrawl fetch successfully retrieved the career page content, including job listings such as \"Senior Project Manager\" and \"Product Management Intern\".",
+        "raw_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ]
+      },
+      "note": "Gemini completion call"
+    }
+  ]
+}

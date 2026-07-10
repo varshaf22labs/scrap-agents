@@ -1,0 +1,200 @@
+{
+  "domain": "f22labs.com",
+  "generated_at": "2026-07-10T07:25:11.409268+00:00",
+  "events": [
+    {
+      "ts": "2026-07-10T07:25:02.154779+00:00",
+      "actor": "system",
+      "action": "startup",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "env_file_loaded": true,
+        "discovery_model": "gemini-2.5-flash",
+        "investigation_model": "gemini-2.5-flash",
+        "planning_model": "gpt-5-mini",
+        "codegen_model": "gpt-5-mini",
+        "repair_model": "gpt-5-mini",
+        "trace_model": "gemini-2.5-flash",
+        "search_provider": "serper",
+        "firecrawl_enabled": true
+      },
+      "note": "Resolved runtime configuration"
+    },
+    {
+      "ts": "2026-07-10T07:25:02.734140+00:00",
+      "actor": "discovery",
+      "action": "candidate_pages",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": [
+        {
+          "url": "https://f22labs.com",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/career",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/jobs",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/job-openings",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/open-positions",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/join-us",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/work-with-us",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/global/en/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/en/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/company/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://f22labs.com/about/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        }
+      ],
+      "note": "Candidate careers URLs and probes"
+    },
+    {
+      "ts": "2026-07-10T07:25:11.271842+00:00",
+      "actor": "investigation",
+      "action": "source_analysis",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "source_type": "html",
+        "careers_url": "https://f22labs.com/careers",
+        "platform": null,
+        "api_url": null,
+        "jobs_found_during_investigation": false,
+        "job_count_detected": 0,
+        "job_titles": [],
+        "listing_selector": null,
+        "job_selector": null,
+        "detail_selector": null,
+        "recommended_strategy": "beautifulsoup",
+        "json_paths": [],
+        "selectors": {},
+        "pagination": {},
+        "listing": {},
+        "detail": {},
+        "evidence": [
+          {
+            "url": "https://f22labs.com/careers",
+            "error": "HTTPSConnectionPool(host='f22labs.com', port=443): Max retries exceeded with url: /careers (Caused by NewConnectionError(\"HTTPSConnection(host='f22labs.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          },
+          {
+            "url": "https://f22labs.com/career",
+            "error": "HTTPSConnectionPool(host='f22labs.com', port=443): Max retries exceeded with url: /career (Caused by NewConnectionError(\"HTTPSConnection(host='f22labs.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          },
+          {
+            "url": "https://f22labs.com/jobs",
+            "error": "HTTPSConnectionPool(host='f22labs.com', port=443): Max retries exceeded with url: /jobs (Caused by NewConnectionError(\"HTTPSConnection(host='f22labs.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          }
+        ]
+      },
+      "note": "Detected source type html; jobs_found=False; job_count=0; recommended_strategy=beautifulsoup"
+    },
+    {
+      "ts": "2026-07-10T07:25:11.333321+00:00",
+      "actor": "planning",
+      "action": "error",
+      "input": {
+        "domain": "f22labs.com"
+      },
+      "output": {
+        "stage": "planning",
+        "type": "ConnectionError",
+        "message": "HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='api.openai.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+      },
+      "note": "planning stage failed"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+services:
+  job-scraper-agent:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - LLM_BASE_URL=${LLM_BASE_URL}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+      - FREELLMAPI_BASE_URL=${FREELLMAPI_BASE_URL}
+      - LLM_API_KEY=${LLM_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - FREELLMAPI_API_KEY=${FREELLMAPI_API_KEY}
+      - GROK_BASE_URL=${GROK_BASE_URL}
+      - GROK_API_KEY=${GROK_API_KEY}
+      - GROK_MODEL=${GROK_MODEL}
+      - SEARCH_PROVIDER=${SEARCH_PROVIDER}
+      - SERPER_API_KEY=${SERPER_API_KEY}
+      - SERPAPI_API_KEY=${SERPAPI_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+    command: ["python", "app.py", "example.com", "--json"]

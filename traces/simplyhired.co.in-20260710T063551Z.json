@@ -1,0 +1,192 @@
+{
+  "domain": "simplyhired.co.in",
+  "generated_at": "2026-07-10T06:35:51.449963+00:00",
+  "events": [
+    {
+      "ts": "2026-07-10T06:35:47.832996+00:00",
+      "actor": "system",
+      "action": "startup",
+      "input": {
+        "domain": "simplyhired.co.in"
+      },
+      "output": {
+        "env_file_loaded": true,
+        "discovery_model": "gemini-2.5-flash",
+        "investigation_model": "gemini-2.5-flash",
+        "planning_model": "gpt-5-mini",
+        "codegen_model": "gpt-5-mini",
+        "repair_model": "gpt-5-mini",
+        "trace_model": "gemini-2.5-flash",
+        "search_provider": "serper",
+        "firecrawl_enabled": true
+      },
+      "note": "Resolved runtime configuration"
+    },
+    {
+      "ts": "2026-07-10T06:35:48.581978+00:00",
+      "actor": "discovery",
+      "action": "candidate_pages",
+      "input": {
+        "domain": "simplyhired.co.in"
+      },
+      "output": [
+        {
+          "url": "https://simplyhired.co.in",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/career",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/jobs",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/job-openings",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/open-positions",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/join-us",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/work-with-us",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/global/en/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/en/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/company/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        },
+        {
+          "url": "https://simplyhired.co.in/about/careers",
+          "source": "heuristic",
+          "status_code": null,
+          "final_url": null,
+          "title": null,
+          "snippet": null,
+          "evidence": {}
+        }
+      ],
+      "note": "Candidate careers URLs and probes"
+    },
+    {
+      "ts": "2026-07-10T06:35:51.149263+00:00",
+      "actor": "investigation",
+      "action": "source_analysis",
+      "input": {
+        "domain": "simplyhired.co.in"
+      },
+      "output": {
+        "source_type": "html",
+        "careers_url": "https://simplyhired.co.in/careers",
+        "platform": null,
+        "api_url": null,
+        "jobs_found_during_investigation": false,
+        "job_count_detected": 0,
+        "job_titles": [],
+        "listing_selector": null,
+        "job_selector": null,
+        "detail_selector": null,
+        "recommended_strategy": "beautifulsoup",
+        "json_paths": [],
+        "selectors": {},
+        "pagination": {},
+        "listing": {},
+        "detail": {},
+        "evidence": [
+          {
+            "url": "https://simplyhired.co.in/careers",
+            "error": "HTTPSConnectionPool(host='simplyhired.co.in', port=443): Max retries exceeded with url: /careers (Caused by NewConnectionError(\"HTTPSConnection(host='simplyhired.co.in', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+          }
+        ]
+      },
+      "note": "Detected source type html; jobs_found=False; job_count=0; recommended_strategy=beautifulsoup"
+    },
+    {
+      "ts": "2026-07-10T06:35:51.225151+00:00",
+      "actor": "planning",
+      "action": "error",
+      "input": {
+        "domain": "simplyhired.co.in"
+      },
+      "output": {
+        "stage": "planning",
+        "type": "ConnectionError",
+        "message": "HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError(\"HTTPSConnection(host='api.openai.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions\"))"
+      },
+      "note": "planning stage failed"
+    }
+  ]
+}
